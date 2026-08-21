@@ -1,0 +1,1063 @@
+/* ==========================================================================
+   La Flora Body Art — huisstijl
+   Alles wat met kleur, letter en ruimte te maken heeft staat hier.
+   Pas je een waarde hier aan, dan verandert die op de hele site mee.
+   ========================================================================== */
+
+:root {
+  /* --- Kleuren -------------------------------------------------------- */
+  --kleur-nacht: #060a18; /* bijna zwart met blauw erin, de bodem */
+  --kleur-inkt: #03060f; /* nog dieper, voor de footer */
+  --kleur-marrakech: #5b53d6; /* Majorelle, de basiskleur */
+  --kleur-diepblauw: #1c2a86; /* de plas licht op de achtergrond */
+  --kleur-druif: var(--kleur-diepblauw);
+  --kleur-fuchsia: var(--kleur-marrakech);
+  --kleur-bloesem: #f2a0b8; /* roze, uit de bloemen op de foto's */
+  --kleur-mauve: #c9a0d8; /* lila, uit de magnolia's */
+  --kleur-blad: #9fbb7e; /* blad */
+  --kleur-goud: #d9a83f; /* bladgoud */
+  --kleur-champagne: #f5e3bd; /* champagne, het warme licht */
+  --kleur-maanlicht: #fdf7f1; /* warm wit, de tekstkleur */
+  --kleur-goud-licht: var(--kleur-champagne);
+  --kleur-bloesem-zacht: #f8cfdb;
+
+  /* De feestslinger: alle kleuren in één verloop */
+  --slinger: linear-gradient(
+    100deg,
+    var(--kleur-marrakech) 0%,
+    var(--kleur-mauve) 18%,
+    var(--kleur-champagne) 38%,
+    var(--kleur-goud) 54%,
+    var(--kleur-champagne) 68%,
+    var(--kleur-bloesem) 84%,
+    var(--kleur-marrakech) 100%
+  );
+
+  /* Betekenisvolle namen, gebouwd op de kleuren hierboven */
+  --achtergrond: var(--kleur-nacht);
+  --tekst: var(--kleur-maanlicht);
+  --tekst-zacht: color-mix(in srgb, var(--kleur-maanlicht) 68%, transparent);
+  --accent: var(--kleur-goud);
+  --lijn: color-mix(in srgb, var(--kleur-goud) 32%, transparent);
+  --vlak: color-mix(in srgb, var(--kleur-druif) 42%, transparent);
+
+  /* --- Letters -------------------------------------------------------- */
+  --letter-display: "Grandstander", "Jost", sans-serif;
+  --letter-tekst: "Jost", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --tekstgrootte-xs: 0.78rem;
+  --tekstgrootte-s: 0.92rem;
+  --tekstgrootte-m: 1.05rem;
+  --tekstgrootte-l: 1.28rem;
+  --titel-s: clamp(1.5rem, 1.1rem + 1.6vw, 2.1rem);
+  --titel-m: clamp(2rem, 1.3rem + 3vw, 3.4rem);
+  --titel-l: clamp(3rem, 1.4rem + 8vw, 7.5rem);
+
+  /* --- Ruimte en vorm -------------------------------------------------- */
+  --ruimte-1: 0.5rem;
+  --ruimte-2: 1rem;
+  --ruimte-3: 1.5rem;
+  --ruimte-4: 2.5rem;
+  --ruimte-5: 4rem;
+  --ruimte-6: 6rem;
+  --breedte: 1120px;
+  --breedte-tekst: 62ch;
+  --ronding: 2px;
+  --ronding-groot: 200px;
+}
+
+/* --------------------------------------------------------------------------
+   Basis
+   -------------------------------------------------------------------------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--achtergrond);
+  color: var(--tekst);
+  font-family: var(--letter-tekst);
+  font-size: var(--tekstgrootte-m);
+  font-weight: 300;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* De sterrenhemel: heel subtiel, achter alles */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image: radial-gradient(
+      ellipse 60% 45% at 50% 12%,
+      color-mix(in srgb, var(--kleur-druif) 62%, transparent),
+      transparent 72%
+    ),
+    radial-gradient(
+      circle at 88% 6%,
+      color-mix(in srgb, var(--kleur-marrakech) 20%, transparent),
+      transparent 42%
+    ),
+    radial-gradient(
+      circle at 8% 62%,
+      color-mix(in srgb, var(--kleur-marrakech) 14%, transparent),
+      transparent 48%
+    ),
+    radial-gradient(
+      circle at 50% 104%,
+      color-mix(in srgb, var(--kleur-druif) 34%, transparent),
+      transparent 55%
+    );
+}
+
+main,
+header,
+footer {
+  position: relative;
+  z-index: 1;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--letter-display);
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: 0.005em;
+  margin: 0;
+}
+
+p {
+  margin: 0 0 var(--ruimte-2);
+  max-width: var(--breedte-tekst);
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+:focus-visible {
+  outline: 2px solid var(--kleur-goud);
+  outline-offset: 3px;
+}
+
+/* --------------------------------------------------------------------------
+   Herbruikbare stukjes
+   -------------------------------------------------------------------------- */
+
+.omhulsel {
+  width: 100%;
+  max-width: var(--breedte);
+  margin-inline: auto;
+  padding-inline: var(--ruimte-3);
+}
+
+.bovenkop {
+  font-size: var(--tekstgrootte-xs);
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--kleur-goud);
+  margin: 0 0 var(--ruimte-2);
+}
+
+.glitterlijn {
+  height: 1px;
+  border: 0;
+  margin: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--kleur-goud) 20%,
+    var(--kleur-bloesem) 50%,
+    var(--kleur-goud) 80%,
+    transparent
+  );
+  opacity: 0.55;
+}
+
+.knop {
+  display: inline-block;
+  font-family: var(--letter-tekst);
+  font-size: var(--tekstgrootte-s);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.9rem 2rem;
+  border-radius: var(--ronding-groot);
+  border: 1px solid var(--lijn);
+  transition: background 200ms ease, color 200ms ease, border-color 200ms ease;
+}
+
+.knop--vol {
+  background: var(--kleur-bloesem);
+  border-color: var(--kleur-bloesem);
+  color: var(--kleur-inkt);
+}
+
+.knop--vol:hover {
+  background: var(--kleur-goud-licht);
+  border-color: var(--kleur-goud-licht);
+}
+
+.knop--leeg:hover {
+  border-color: var(--kleur-goud);
+  color: var(--kleur-goud-licht);
+}
+
+/* --------------------------------------------------------------------------
+   Navigatie
+   -------------------------------------------------------------------------- */
+
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  backdrop-filter: blur(10px);
+  background: color-mix(in srgb, var(--kleur-nacht) 82%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--kleur-goud) 18%, transparent);
+}
+
+.nav__binnen {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--ruimte-3);
+  padding-block: var(--ruimte-2);
+  flex-wrap: wrap;
+}
+
+.nav__merk {
+  font-family: var(--letter-display);
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.4rem;
+  letter-spacing: 0;
+  text-decoration: none;
+  background: var(--slinger);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  gap: var(--ruimte-3);
+  flex-wrap: wrap;
+  font-size: var(--tekstgrootte-s);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.nav__links a {
+  text-decoration: none;
+  color: var(--tekst-zacht);
+  transition: color 160ms ease;
+}
+
+.nav__links a:hover {
+  color: var(--kleur-bloesem);
+}
+
+.nav__taal {
+  border-left: 1px solid var(--lijn);
+  padding-left: var(--ruimte-3);
+}
+
+/* --------------------------------------------------------------------------
+   Hero
+   -------------------------------------------------------------------------- */
+
+.hero {
+  padding-block: clamp(2.5rem, 6vw, 5rem) var(--ruimte-5);
+  text-align: center;
+}
+
+.hero__naam {
+  font-family: var(--letter-display);
+  font-size: var(--titel-l);
+  letter-spacing: -0.01em;
+  margin: 0;
+  background: var(--slinger);
+  background-size: 220% 100%;
+  transform: rotate(-1.5deg);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: glans 9s ease-in-out infinite;
+}
+
+@keyframes glans {
+  0%,
+  100% {
+    background-position: 130% 0;
+  }
+  50% {
+    background-position: -30% 0;
+  }
+}
+
+.hero__ondertitel {
+  font-family: var(--letter-display);
+  font-size: var(--titel-s);
+  color: var(--kleur-bloesem);
+  margin-top: var(--ruimte-2);
+}
+
+.hero__tekst {
+  margin-inline: auto;
+  margin-top: var(--ruimte-3);
+  max-width: 48ch;
+  color: var(--tekst-zacht);
+  font-size: var(--tekstgrootte-l);
+}
+
+.hero__knoppen {
+  display: flex;
+  gap: var(--ruimte-2);
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: var(--ruimte-4);
+}
+
+/* --------------------------------------------------------------------------
+   Secties
+   -------------------------------------------------------------------------- */
+
+.sectie {
+  padding-block: var(--ruimte-5);
+}
+
+.sectie__kop {
+  margin-bottom: var(--ruimte-4);
+  max-width: var(--breedte-tekst);
+}
+
+.sectie__titel {
+  font-size: var(--titel-m);
+  padding-bottom: 0.1em;
+  overflow-wrap: anywhere;
+  background: var(--slinger);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: glans 14s ease-in-out infinite;
+}
+
+.sectie__intro {
+  color: var(--tekst-zacht);
+  margin-top: var(--ruimte-2);
+}
+
+/* --------------------------------------------------------------------------
+   Aanbod
+   -------------------------------------------------------------------------- */
+
+.aanbod {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--ruimte-3);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+/* De eerste kaart is de uitgelichte, die krijgt dubbele breedte */
+.aanbod > li:first-child {
+  grid-column: span 2;
+}
+
+@media (max-width: 900px) {
+  .aanbod {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .aanbod {
+    grid-template-columns: 1fr;
+  }
+  .aanbod > li:first-child {
+    grid-column: span 1;
+  }
+}
+
+.kaart {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-decoration: none;
+  transition: transform 260ms ease;
+}
+
+.kaart:hover {
+  transform: translateY(-4px);
+}
+
+.kaart .beeld {
+  transition: box-shadow 260ms ease;
+}
+
+.kaart:hover .beeld {
+  box-shadow: 0 0 34px 6px color-mix(in srgb, var(--kleur-champagne) 18%, transparent);
+}
+
+.kaart__tekst {
+  padding: var(--ruimte-2) var(--ruimte-1) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--ruimte-1);
+  flex: 1;
+}
+
+.kaart__naam {
+  font-size: clamp(1.25rem, 1.05rem + 0.7vw, 1.6rem);
+  overflow-wrap: anywhere;
+  hyphens: auto;
+  padding-bottom: 0.12em;
+}
+
+.kaart__kort {
+  color: var(--tekst-zacht);
+  font-size: var(--tekstgrootte-s);
+  margin: 0;
+}
+
+.kaart__meer {
+  margin-top: auto;
+  padding-top: var(--ruimte-2);
+  font-size: var(--tekstgrootte-xs);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--kleur-goud);
+}
+
+/* Beeld: één opmaak, overal hetzelfde */
+.beeld {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(
+    140deg,
+    var(--kleur-druif),
+    var(--kleur-nacht) 55%,
+    color-mix(in srgb, var(--kleur-bloesem) 40%, var(--kleur-nacht))
+  );
+}
+
+.beeld--kaart {
+  aspect-ratio: 4 / 5;
+}
+
+.beeld--breed {
+  aspect-ratio: 16 / 9;
+}
+
+.beeld img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.beeld__leeg {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-family: var(--letter-display);
+  font-style: italic;
+  font-size: var(--tekstgrootte-l);
+  letter-spacing: 0.06em;
+  color: color-mix(in srgb, var(--kleur-champagne) 45%, transparent);
+}
+
+/* --------------------------------------------------------------------------
+   Werkwijze
+   -------------------------------------------------------------------------- */
+
+.stappen {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--ruimte-4);
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  counter-reset: stap;
+}
+
+.stap {
+  counter-increment: stap;
+  padding-top: var(--ruimte-2);
+  border-top: 1px solid var(--lijn);
+}
+
+.stap::before {
+  content: counter(stap, decimal-leading-zero);
+  display: block;
+  font-family: var(--letter-display);
+  font-size: var(--tekstgrootte-s);
+  letter-spacing: 0.2em;
+  color: var(--kleur-goud);
+  margin-bottom: var(--ruimte-1);
+}
+
+.stap h3 {
+  font-size: var(--tekstgrootte-l);
+  font-family: var(--letter-tekst);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.stap p {
+  color: var(--tekst-zacht);
+  font-size: var(--tekstgrootte-s);
+  margin-top: var(--ruimte-1);
+}
+
+/* --------------------------------------------------------------------------
+   Over en boeken
+   -------------------------------------------------------------------------- */
+
+.tweeluik {
+  display: grid;
+  gap: var(--ruimte-5);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  align-items: center;
+}
+
+.boeken {
+  text-align: center;
+}
+
+.boeken__gegevens {
+  list-style: none;
+  margin: var(--ruimte-3) 0 0;
+  padding: 0;
+  display: flex;
+  gap: var(--ruimte-3);
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: var(--tekstgrootte-s);
+  letter-spacing: 0.08em;
+}
+
+.boeken__gegevens a {
+  color: var(--kleur-bloesem);
+  text-decoration: none;
+}
+
+.boeken__gegevens a:hover {
+  color: var(--kleur-goud-licht);
+}
+
+.boeken p {
+  margin-inline: auto;
+}
+
+/* --------------------------------------------------------------------------
+   Detailpagina
+   -------------------------------------------------------------------------- */
+
+.detail {
+  padding-block: var(--ruimte-5) var(--ruimte-6);
+}
+
+.detail__terug {
+  display: inline-block;
+  font-size: var(--tekstgrootte-xs);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--tekst-zacht);
+  text-decoration: none;
+  margin-bottom: var(--ruimte-3);
+}
+
+.detail__terug:hover {
+  color: var(--kleur-goud);
+}
+
+.detail__titel {
+  font-size: var(--titel-m);
+  margin-bottom: var(--ruimte-3);
+}
+
+.detail__raster {
+  display: grid;
+  gap: var(--ruimte-5);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: start;
+}
+
+@media (max-width: 720px) {
+  .detail__raster {
+    grid-template-columns: 1fr;
+  }
+}
+
+.feiten {
+  list-style: none;
+  margin: var(--ruimte-3) 0;
+  padding: 0;
+  border-top: 1px solid var(--lijn);
+}
+
+.feiten li {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--ruimte-2);
+  padding-block: 0.7rem;
+  border-bottom: 1px solid var(--lijn);
+  font-size: var(--tekstgrootte-s);
+}
+
+.feiten dt,
+.feiten__label {
+  color: var(--tekst-zacht);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: var(--tekstgrootte-xs);
+}
+
+/* --------------------------------------------------------------------------
+   Footer
+   -------------------------------------------------------------------------- */
+
+.footer {
+  background: var(--kleur-inkt);
+  margin-top: var(--ruimte-6);
+  padding-block: var(--ruimte-4);
+  font-size: var(--tekstgrootte-s);
+  color: var(--tekst-zacht);
+}
+
+.footer__binnen {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--ruimte-3);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer a {
+  color: var(--kleur-bloesem);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: var(--kleur-goud-licht);
+}
+
+/* --------------------------------------------------------------------------
+   Rust voor wie daarom vraagt
+   -------------------------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .hero__naam {
+    background-position: 50% 0;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Evenement
+   -------------------------------------------------------------------------- */
+
+.evenement {
+  display: grid;
+  gap: var(--ruimte-5);
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  align-items: center;
+  padding: var(--ruimte-4);
+  border-radius: 28px;
+  background: radial-gradient(
+    ellipse at 30% 50%,
+    color-mix(in srgb, var(--kleur-druif) 40%, transparent),
+    color-mix(in srgb, var(--kleur-druif) 12%, transparent) 72%
+  );
+}
+
+.evenement .beeld {
+  box-shadow: 0 0 46px 8px color-mix(in srgb, var(--kleur-champagne) 12%, transparent);
+}
+
+@media (max-width: 760px) {
+  .evenement {
+    grid-template-columns: 1fr;
+    gap: var(--ruimte-3);
+    padding: var(--ruimte-3);
+  }
+}
+
+.vlag {
+  display: inline-block;
+  margin: var(--ruimte-2) 0 0;
+  padding: 0.35rem 0.9rem;
+  border-radius: var(--ronding-groot);
+  border: 1px solid var(--kleur-blad);
+  color: var(--kleur-blad);
+  font-size: var(--tekstgrootte-xs);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.vlag--bijna {
+  border-color: var(--kleur-goud);
+  color: var(--kleur-goud);
+}
+
+.vlag--vol {
+  border-color: color-mix(in srgb, var(--kleur-maanlicht) 30%, transparent);
+  color: var(--tekst-zacht);
+}
+
+.feiten__bij {
+  display: block;
+  color: var(--tekst-zacht);
+  font-size: var(--tekstgrootte-xs);
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.feiten li span:last-child {
+  text-align: right;
+}
+
+/* --------------------------------------------------------------------------
+   Glitter
+   Kleine lichtjes die traag aan en uit gaan. Ze staan achter de tekst en
+   vangen geen muisklikken op.
+   -------------------------------------------------------------------------- */
+
+.glitters {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.glitter {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  filter: drop-shadow(0 0 6px color-mix(in srgb, var(--kleur-champagne) 55%, transparent));
+  opacity: 0;
+  background: var(--kleur-champagne);
+  clip-path: polygon(50% 0, 60% 40%, 100% 50%, 60% 60%, 50% 100%, 40% 60%, 0 50%, 40% 40%);
+  animation: fonkel 5s ease-in-out infinite;
+}
+
+.glitter:nth-child(3n) {
+  background: var(--kleur-bloesem);
+}
+
+.glitter:nth-child(4n) {
+  background: var(--kleur-mauve);
+}
+
+.glitter:nth-child(5n) {
+  background: var(--kleur-blad);
+}
+
+@keyframes fonkel {
+  0%,
+  70%,
+  100% {
+    opacity: 0;
+    transform: scale(0.4) rotate(0deg);
+  }
+  35% {
+    opacity: 0.95;
+    transform: scale(1) rotate(45deg);
+  }
+}
+
+.hero {
+  position: relative;
+}
+
+.hero .omhulsel {
+  position: relative;
+  z-index: 1;
+}
+
+/* De knoppen mogen ook glimmen */
+.knop--vol {
+  background: var(--slinger);
+  background-size: 200% 100%;
+  border-color: transparent;
+  color: var(--kleur-inkt);
+  font-weight: 500;
+  animation: glans 14s ease-in-out infinite;
+}
+
+.knop--vol:hover {
+  background: var(--kleur-champagne);
+  border-color: var(--kleur-champagne);
+}
+
+.kaart__naam,
+.detail__titel,
+.hero__ondertitel {
+  background: var(--slinger);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero__ondertitel {
+  animation: glans 14s ease-in-out infinite;
+}
+
+.bovenkop {
+  color: var(--kleur-champagne);
+}
+
+.stap::before {
+  font-style: italic;
+  font-size: var(--tekstgrootte-l);
+  color: var(--kleur-bloesem);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glitter {
+    animation: none;
+    opacity: 0.7;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   De kleedkamer
+   Een spiegel met lampen eromheen, zoals bij een artiest achter het toneel.
+   -------------------------------------------------------------------------- */
+
+.spiegel {
+  position: relative;
+  max-width: 780px;
+  margin-inline: auto;
+  padding: clamp(5rem, 11vw, 8rem) clamp(1.75rem, 5vw, 4rem) clamp(3rem, 6vw, 4.5rem);
+  border: 1px solid color-mix(in srgb, var(--kleur-goud) 24%, transparent);
+  border-radius: 50% 50% 30px 30px / 24% 24% 30px 30px;
+  background: radial-gradient(
+    ellipse at 50% 34%,
+    color-mix(in srgb, var(--kleur-champagne) 8%, transparent),
+    color-mix(in srgb, var(--kleur-druif) 22%, transparent) 58%,
+    transparent 76%
+  );
+}
+
+.lamp {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--kleur-champagne);
+  box-shadow: 0 0 14px 4px color-mix(in srgb, var(--kleur-champagne) 34%, transparent),
+    0 0 34px 10px color-mix(in srgb, var(--kleur-goud) 14%, transparent);
+  opacity: 0.62;
+  animation: gloeien 7s ease-in-out infinite;
+}
+
+@keyframes gloeien {
+  0%,
+  100% {
+    opacity: 0.52;
+  }
+  50% {
+    opacity: 0.92;
+  }
+}
+
+@media (max-width: 620px) {
+  .lamp {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Beelden zonder rechte hoeken
+   Vier vormen die aanvoelen als een blaadje onder een penseelstreek.
+   -------------------------------------------------------------------------- */
+
+/* Zachte hoeken, per beeld net iets anders, zodat niets van de foto
+   wegvalt maar de rand toch met de hand gezet lijkt. */
+.beeld {
+  border-radius: 22px;
+}
+
+.beeld--blad-1 {
+  border-radius: 26px 20px 24px 22px;
+}
+
+.beeld--blad-2 {
+  border-radius: 20px 26px 22px 24px;
+}
+
+.beeld--blad-3 {
+  border-radius: 24px 22px 26px 20px;
+}
+
+.beeld--blad-4 {
+  border-radius: 22px 24px 20px 26px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lamp {
+    animation: none;
+    opacity: 0.7;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   De gouden bloem
+   -------------------------------------------------------------------------- */
+
+.bloem {
+  display: block;
+  filter: drop-shadow(0 3px 26px color-mix(in srgb, var(--kleur-marrakech) 55%, transparent));
+}
+
+.spiegel__bloem {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -48%);
+  padding: 0 30px;
+}
+
+/* De sierlijn tussen de secties, met de bloem in het midden */
+.sierlijn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--ruimte-2);
+  padding-inline: var(--ruimte-3);
+}
+
+.sierlijn::before,
+.sierlijn::after {
+  content: "";
+  flex: 1;
+  max-width: 34%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in srgb, var(--kleur-goud) 70%, transparent)
+  );
+}
+
+.sierlijn::after {
+  background: linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--kleur-goud) 70%, transparent),
+    transparent
+  );
+}
+
+@media (max-width: 620px) {
+  .spiegel__bloem {
+    padding: 4px;
+  }
+}
+
+
+
+/* --------------------------------------------------------------------------
+   Goed om te weten
+   -------------------------------------------------------------------------- */
+
+.praktisch {
+  margin: var(--ruimte-3) 0 var(--ruimte-4);
+  padding-top: var(--ruimte-3);
+  border-top: 1px solid var(--lijn);
+}
+
+.praktisch ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--ruimte-1);
+}
+
+.praktisch li {
+  position: relative;
+  padding-left: 1.4rem;
+  font-size: var(--tekstgrootte-s);
+  color: var(--tekst-zacht);
+}
+
+.praktisch li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.75em;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--kleur-goud);
+  opacity: 0.8;
+}
+
+/* --------------------------------------------------------------------------
+   Filmpje
+   -------------------------------------------------------------------------- */
+
+.film {
+  margin: 0;
+  display: grid;
+  gap: var(--ruimte-2);
+  justify-items: center;
+}
+
+.film__beeld {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 24px 20px 26px 22px;
+  display: block;
+  box-shadow: 0 0 60px 10px color-mix(in srgb, var(--kleur-marrakech) 26%, transparent);
+}
+
+.film__bijschrift {
+  font-size: var(--tekstgrootte-s);
+  color: var(--tekst-zacht);
+  text-align: center;
+  max-width: 44ch;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .film__beeld {
+    animation: none;
+  }
+}

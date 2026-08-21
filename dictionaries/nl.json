@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "titel": "La Flora Body Art",
+    "beschrijving": "De magie die blijft, lang nadat de schmink verdwenen is. Belevingssessies, bellypainting en body art voor kinderen, moeders en festivals."
+  },
+  "nav": {
+    "merk": "La Flora",
+    "evenement": "Workshop",
+    "aanbod": "Aanbod",
+    "werkwijze": "Zo werkt het",
+    "over": "Over La Flora",
+    "boeken": "Boeken",
+    "taal": "English",
+    "taalHref": "/en"
+  },
+  "hero": {
+    "bovenkop": "Belevingssessies",
+    "naam": "La Flora",
+    "ondertitel": "De magie die blijft, lang nadat de schmink verdwenen is",
+    "tekst": "Ik schmink geen kinderen. Ik laat ze zichzelf als magie ervaren. Met kleur, geur, aandacht en verwondering anker ik een gevoel dat meegaat naar huis.",
+    "knopPrimair": "Boek een sessie",
+    "knopSecundair": "Bekijk het aanbod"
+  },
+  "evenement": {
+    "bovenkop": "Eerstvolgende workshop",
+    "titel": "Workshop body art",
+    "beeld": "/beelden/oefenbord-bloemen.jpg",
+    "tekst": [
+      "Een middag leren schilderen op de huid. Je begint met een enkele lijn en aan het eind staat er een bloem op de arm van je buurvrouw.",
+      "Ik laat je zien hoe verf zich gedraagt op huid, hoe je met twee kleuren tegelijk werkt en waar je glitter en steentjes neerlegt zodat het licht ze vindt.",
+      "Alle materialen liggen klaar. Je mag komen met lege handen en nul ervaring, alleen zin om ze vies te maken."
+    ],
+    "datum": "Zaterdag 10 oktober 2026",
+    "tijd": "13.00 tot 16.30 uur",
+    "locatie": "Bilthoven",
+    "prijs": "75 euro",
+    "prijsToelichting": "materialen, thee en iets lekkers inbegrepen",
+    "plaatsenTotaal": 12,
+    "plaatsenBezet": 7,
+    "labelDatum": "Wanneer",
+    "labelTijd": "Hoe laat",
+    "labelLocatie": "Waar",
+    "labelPrijs": "Prijs",
+    "labelPlaatsen": "Plekken",
+    "plekVrij": "plek vrij",
+    "plekkenVrij": "plekken vrij",
+    "bijnaVol": "Bijna vol",
+    "volgeboekt": "Volgeboekt",
+    "wachtlijst": "Zet me op de wachtlijst",
+    "knop": "Meld je aan"
+  },
+  "aanbod": {
+    "bovenkop": "Aanbod",
+    "titel": "Wat ik maak",
+    "intro": "Elke sessie is een moment waarin iemand zichzelf even helemaal ziet. Mooi, bijzonder, precies goed zoals ze is. Kies wat past bij jouw moment.",
+    "meer": "Lees verder",
+    "items": [
+      {
+        "slug": "magische-bloemenbeleving",
+        "naam": "Magische bloemenbeleving",
+        "kort": "Anderhalf uur aan huis, voor een tot drie kinderen, met een schminkkoffertje en een verlichte spiegel.",
+        "beeld": "/beelden/bloemen-op-het-gezicht.jpg",
+        "duur": "anderhalf uur",
+        "vanaf": "110 euro per sessie",
+        "voor": "Gevoelige kinderen, ongeveer vier tot zeven jaar",
+        "beschrijving": [
+          "Voor kinderen die snel overweldigd raken op een druk feest en toch dolgraag magie willen ervaren op hun verjaardag. Ik kom naar jullie toe en maak van de eettafel een plek waar het even helemaal om haar draait.",
+          "We beginnen met een klein ritueel. De kinderen openen samen het schminkkoffertje en ontdekken de kleuren, de glitters en de voorbeelden. We leggen alles rustig op tafel en er is alle tijd om te kijken, te voelen en te vertellen wat ze mooi vinden.",
+          "Daarna schilder ik ze een voor een. Elegante bloemen, zachte kleuren, fijne glitters, afgestemd op ieder kind. In een verlichte spiegel volgt ze hoe haar gezicht stap voor stap tot leven komt.",
+          "De beleving is bewust vertraagd. Juist in die rust ontstaat verwondering, en een herinnering die jarenlang meegaat. Ik werk vanuit beleving."
+        ],
+        "praktisch": [
+          "Anderhalf uur bij jullie thuis, in een vertrouwde en veilige omgeving",
+          "Voor een tot drie kinderen, zodat ieder kind mijn volledige aandacht krijgt",
+          "Inclusief voorbereiding, materialen, de creatieve beleving en een rustmoment",
+          "Aan de eettafel in een opgeruimde kamer. Hoe stiller de ruimte, hoe dieper de kinderen erin gaan",
+          "Tijdens de beleving is alle aandacht bij de kinderen. Na afloop hoor ik graag jullie reacties en vragen",
+          "Ga daarna samen even naar buiten, naar de speeltuin of de bibliotheek. De warme reacties die ze daar krijgen maken het gevoel nog groter"
+        ]
+      },
+      {
+        "slug": "moeder-dochter-experience",
+        "naam": "Moeder dochter experience",
+        "kort": "Samen voor de spiegel, allebei beschilderd, en foto's om te houden.",
+        "beeld": "/beelden/bloemen-op-de-schouder.jpg",
+        "duur": "90 minuten",
+        "vanaf": "125 euro samen",
+        "voor": "Vanaf ongeveer vijf jaar",
+        "beschrijving": [
+          "Jullie komen samen binnen en gaan naast elkaar zitten. Eerst kiest zij, dan kies jij, en daarna schilder ik jullie allebei.",
+          "Het gaat om de spiegel. Om het moment waarop ze zichzelf ziet en even helemaal stil is, en om jou die daarnaast zit met bloemen op je eigen schouder.",
+          "We sluiten af met foto's. Die krijg je een paar dagen later toegestuurd.",
+          "Er is alle tijd. Voor kinderen die veel voelen betekent dat: eerst kijken, dan aanraken, en pas schilderen als zij zover is."
+        ],
+        "praktisch": [
+          "Bij jullie thuis of in mijn atelier",
+          "Foto's krijg je een paar dagen later toegestuurd"
+        ]
+      },
+      {
+        "slug": "festivals",
+        "naam": "Bewuste festivals",
+        "kort": "Een plek op het terrein waar mensen even gaan zitten en versierd weer opstaan.",
+        "beeld": "/beelden/bloem-op-de-hand.jpg",
+        "duur": "dagdeel of hele dag",
+        "vanaf": "vanaf 350 euro per dagdeel",
+        "voor": "Festivals, ceremonies en retraites",
+        "beschrijving": [
+          "Op een festival werk ik het liefst met bloemen op schouders, sleutelbeenderen en gezichten. Groot genoeg om van een afstand te zien, fijn genoeg om van dichtbij naar te kijken.",
+          "Ik neem mijn eigen plek mee: een tafel, een spiegel, kaarsen en een stoel waar je even helemaal niets hoeft.",
+          "Ik werk met huidvriendelijke verf en glitter op plantaardige basis, dus je spoelt het terrein niet vol met microplastic.",
+          "Mijn hoekje is de stille plek op het terrein. Ook voor bezoekers die even weg willen van de prikkels."
+        ],
+        "praktisch": [
+          "Ik neem mijn eigen tafel, spiegel en stoel mee",
+          "Huidvriendelijke verf en glitter op plantaardige basis"
+        ]
+      },
+      {
+        "slug": "bellypainting",
+        "naam": "Bellypainting",
+        "kort": "Je zwangere buik als bloementuin, in ongeveer een uur geschilderd.",
+        "beeld": "/beelden/bellypainting.jpg",
+        "duur": "60 tot 90 minuten",
+        "vanaf": "vanaf 95 euro",
+        "voor": "Vanaf 30 weken zwanger",
+        "beschrijving": [
+          "We beginnen met een kop thee en een gesprek over wat je mooi vindt. Bloemen, ranken, sterren, of iets dat alleen voor jou betekenis heeft.",
+          "Daarna schilder ik rechtstreeks op je buik met huidvriendelijke verf. Je ligt of zit comfortabel, en je mag gerust in slaap vallen.",
+          "Tot slot maken we foto's, zodat je deze buik voor altijd hebt. De verf wast er onder de douche zo weer af."
+        ],
+        "praktisch": [
+          "Vanaf 30 weken zwanger",
+          "Draag iets waar verf op mag"
+        ]
+      },
+      {
+        "slug": "gezicht-en-glitter",
+        "naam": "Gezicht en glitter",
+        "kort": "Bloemen rond het oog, goud op de wang, steentjes waar het licht valt.",
+        "beeld": "/beelden/bloemen-op-het-gezicht.jpg",
+        "duur": "vanaf 2 uur op locatie",
+        "vanaf": "vanaf 150 euro",
+        "voor": "Feesten, bruiloften en kinderpartijtjes",
+        "beschrijving": [
+          "Geen tijgers en spinnen, maar bloemen die om het oog heen groeien, met glitter en kleine steentjes erin.",
+          "Per gezicht ben ik vijf tot tien minuten bezig, dus in twee uur gaat er een flinke rij doorheen.",
+          "Geschikt vanaf ongeveer drie jaar. Alle materialen zijn huidvriendelijk en cosmetisch gekeurd.",
+          "Ik werk op ooghoogte en vertel wat ik doe. Kinderen die het spannend vinden mogen eerst bij mama op schoot kijken."
+        ],
+        "praktisch": [
+          "Vijf tot tien minuten per gezicht",
+          "Alle materialen zijn cosmetisch gekeurd"
+        ]
+      },
+      {
+        "slug": "handen-en-armen",
+        "naam": "Bloemen op handen en armen",
+        "kort": "Witte lijnen, fijne krullen en stippen die om de pols heen groeien.",
+        "beeld": "/beelden/penseel-op-de-arm.jpg",
+        "duur": "10 tot 30 minuten per persoon",
+        "vanaf": "vanaf 45 euro",
+        "voor": "Handen, polsen, armen en schouders",
+        "beschrijving": [
+          "Een bloem op de rug van de hand, met witte stippen die als een kettinkje naar de vingers lopen. Klein werk, van dichtbij te bekijken.",
+          "Ik teken met een fijn penseel in witte lijnen, met turquoise en roze eronder als achtergrond en goud erdoorheen.",
+          "Fijn voor wie de handen liever laat zien dan het gezicht, en mooi als aanvulling op een geschminkt gezicht."
+        ],
+        "praktisch": [
+          "Blijft goed zitten tot je hem eraf wast",
+          "Prettig voor kinderen die liever niet aan hun gezicht komen"
+        ]
+      }
+    ]
+  },
+  "werkwijze": {
+    "bovenkop": "Zo werkt het",
+    "titel": "Zo verloopt een sessie",
+    "stappen": [
+      {
+        "titel": "Je stuurt een bericht",
+        "tekst": "Vertel me over de dag, de plek en het aantal mensen. Ik laat binnen twee dagen weten of ik vrij ben."
+      },
+      {
+        "titel": "We kiezen samen",
+        "tekst": "Kleuren, bloemen, een dier, een held. Zij kiest, en ik laat het groeien vanaf de eerste lijn."
+      },
+      {
+        "titel": "De spiegel gaat open",
+        "tekst": "Het moment waar het om gaat: ze kijkt, ze wordt stil, en ze ziet zichzelf zoals ze is."
+      },
+      {
+        "titel": "Het gevoel blijft",
+        "tekst": "De schmink gaat er met water en zeep uit. Wat overblijft is de herinnering aan een middag waarop alles om haar draaide."
+      }
+    ]
+  },
+  "over": {
+    "bovenkop": "Over La Flora",
+    "titel": "Waar magie een ervaring is",
+    "tekst": [
+      "Ik ben Jasmina, kunstenares met een voorliefde voor bloemen, lijnen en glitters. Ik schilder langzaam. Eerst laat ik de kwast op je hand voelen, dan pas op je gezicht. Ik vertel wat ik ga doen voordat ik het doe, en we stoppen zodra jij dat wilt.",
+      "Voor kinderen die veel voelen maakt dat het verschil. Alle tijd, zachte handen, en iemand die vraagt voordat ze aanraakt. Ouders van hooggevoelige kinderen weten hoe zeldzaam dat is, en juist die kinderen zitten vaak het langst stil.",
+      "Ik werk vanuit beleving. Mijn werk is opgebouwd met zorg, gedreven door liefde voor detail en gevoel. Wat ik meebreng is verf, glitter, een spiegel en de rust om er echt voor te gaan zitten. Bij je thuis, op locatie of op het festivalterrein."
+    ],
+    "beeld": "/beelden/bloemen-op-de-schouder.jpg"
+  },
+  "boeken": {
+    "bovenkop": "Boeken",
+    "titel": "Zullen we een datum prikken",
+    "tekst": "Stuur een bericht met de datum, de plek en waar je aan denkt. Ik reageer binnen twee dagen.",
+    "knop": "Mail La Flora",
+    "email": "jasminaswonderland@gmail.com",
+    "telefoon": "+31 6 00 00 00 00",
+    "instagram": "@laflorabodyart",
+    "instagramHref": "https://www.instagram.com/laflorabodyart/"
+  },
+  "footer": {
+    "merk": "La Flora Body Art",
+    "regel": "De magie die blijft, lang nadat de schmink verdwenen is",
+    "kvk": "KvK 00000000",
+    "rechten": "Alle rechten voorbehouden"
+  },
+  "detail": {
+    "terug": "Terug naar het aanbod",
+    "duur": "Duur",
+    "vanaf": "Prijs",
+    "voor": "Voor wie",
+    "knop": "Vraag een datum aan",
+    "praktisch": "Goed om te weten"
+  },
+  "film": {
+    "bijschrift": "Zo groeit een lijn. Van de eerste streek tot de laatste krul, in een paar minuten."
+  }
+}

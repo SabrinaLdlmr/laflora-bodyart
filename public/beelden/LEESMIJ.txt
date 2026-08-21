@@ -1,0 +1,14 @@
+Hier staan nu twee foto's. Zet er gerust meer bij.
+
+  bellypainting.jpg
+  glittertattoos.jpg
+  bloemenhenna.jpg
+  workshops.jpg
+  atelier.jpg
+
+Verwijs er daarna naar in dictionaries/nl.json en en.json, bij "beeld":
+
+  "beeld": "/beelden/bellypainting.jpg"
+
+Zolang "beeld" leeg is, toont de site een rustig verloop in de huisstijlkleuren.
+Staand beeld werkt het mooiste in verhouding 4:5, liggend in 16:9.
