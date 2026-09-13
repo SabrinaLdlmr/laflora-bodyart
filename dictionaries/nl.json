@@ -32,7 +32,7 @@
     ],
     "datum": "Zaterdag 10 oktober 2026",
     "tijd": "13.00 tot 16.30 uur",
-    "locatie": "Bilthoven",
+    "locatie": "Amsterdam",
     "prijs": "75 euro",
     "prijsToelichting": "materialen, thee en iets lekkers inbegrepen",
     "plaatsenTotaal": 12,
@@ -213,7 +213,35 @@
     "email": "jasminaswonderland@gmail.com",
     "telefoon": "+31 6 00 00 00 00",
     "instagram": "@laflorabodyart",
-    "instagramHref": "https://www.instagram.com/laflorabodyart/"
+    "instagramHref": "https://www.instagram.com/laflorabodyart/",
+    "formulier": {
+      "titel": "Stuur een bericht",
+      "naam": "Je naam",
+      "naamPlaatshouder": "Hoe mag ik je noemen",
+      "email": "Je e-mailadres",
+      "emailPlaatshouder": "zodat ik je kan antwoorden",
+      "datumPlek": "Datum en plek",
+      "datumPlekPlaatshouder": "12 juni, Amsterdam, tuinfeest",
+      "bericht": "Je bericht",
+      "berichtPlaatshouder": "Waar denk je aan? Hoeveel mensen, welke leeftijden, hoe lang?",
+      "verplicht": "verplicht",
+      "verstuur": "Verstuur",
+      "bezig": "Bezig met versturen",
+      "honingLabel": "Laat dit veld leeg",
+      "geluktTitel": "Dank je wel",
+      "geluktTekst": "Je bericht is onderweg naar Jasmina. Je krijgt binnen twee dagen antwoord.",
+      "nogEen": "Nog een bericht sturen",
+      "ofMail": "Liever gewoon mailen? Dat mag ook:",
+      "fout": {
+        "naam": "Vul je naam in, minstens twee letters.",
+        "email": "Dit e-mailadres klopt nog niet helemaal.",
+        "datumPlek": "Vul in wanneer en waar het is.",
+        "bericht": "Schrijf even kort waar je aan denkt.",
+        "teSnel": "Dat ging wel erg snel. Wacht heel even en probeer het opnieuw.",
+        "teVaak": "Er zijn net al een paar berichten verstuurd. Probeer het over een uur nog eens, of mail rechtstreeks.",
+        "algemeen": "Er ging iets mis met versturen. Probeer het zo nog eens, of mail rechtstreeks naar Jasmina."
+      }
+    }
   },
   "footer": {
     "merk": "La Flora Body Art",

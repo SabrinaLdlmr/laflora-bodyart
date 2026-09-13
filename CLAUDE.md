@@ -41,6 +41,17 @@ zodat de twee talen gelijk blijven lopen.
 - `lib/` hulpfuncties
 - `public/` beelden en andere vaste bestanden
 
+## Instellingen op Vercel
+
+Het contactformulier verstuurt mail via Resend. Daarvoor moet op Vercel de
+omgevingsvariabele `RESEND_API_KEY` ingesteld staan, voor Production en Preview.
+Die sleutel hoort nooit in de code of in git. Lokaal zou hij in `.env.local` staan,
+en dat bestand wordt door `.gitignore` buiten git gehouden.
+
+De afzender is `info@laflorabodyart.nl`. Resend verstuurt alleen namens een domein dat
+daar geverifieerd is, dus `laflorabodyart.nl` moet in Resend aangemeld zijn met de
+bijbehorende DNS-regels. Zolang dat niet klaar is, komt er geen mail aan.
+
 ## De twee scripts
 
 **`publiceer.sh`** publiceert de huidige map in één commando:
