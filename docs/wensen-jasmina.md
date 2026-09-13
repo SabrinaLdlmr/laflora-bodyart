@@ -17,6 +17,27 @@ Vink af wat klaar is en laat erbij staan wanneer het gedaan is.
 - [ ] **Telefoonnummer vervangen.** Er staat nu een plaatshouder, 06 00 00 00 00. Het
       echte nummer moet nog opgevraagd worden.
 
+## Open punten uit het homepagevoorstel
+
+Het voorstel in `docs/homepage-voorstel.md` is gebouwd op 13 september 2026. Deze
+punten stonden er als open vraag in en zijn met een plaatshouder ingevuld.
+
+- [ ] **Duur en prijs van de workshop voor tieners.** Op de pagina staat nu
+      "een middag, in overleg" en "op aanvraag". Zodra Jasmina een bedrag en een
+      lengte kiest, kunnen die in `dictionaries/nl.json` en `en.json` bij het item
+      `workshop-voor-tieners`.
+
+- [ ] **Maximale groepsgrootte bij de magische bloemenbeleving.** De tekst zegt nu
+      nog "een tot drie kinderen", zoals het altijd was. Blijft dat zo?
+
+- [ ] **De omleiding van de festivalpagina definitief maken.** In `next.config.mjs`
+      staat `/aanbod/festivals` als tijdelijke omleiding naar het aanbod. Keurt
+      Jasmina het voorstel goed, dan mag `permanent` daar op `true`.
+
+- [ ] **De over-tekst noemt nog het festivalterrein.** Het voorstel liet die tekst
+      bewust ongemoeid, maar festivals zijn wel uit het aanbod gehaald. Laten staan
+      of aanpassen is een keuze voor Jasmina.
+
 ## Klaarzetten voor het contactformulier
 
 - [ ] **Resend-sleutel op Vercel zetten.** De variabele heet `RESEND_API_KEY` en moet
