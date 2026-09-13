@@ -45,10 +45,10 @@ zodat de twee talen gelijk blijven lopen.
 
 **`publiceer.sh`** publiceert de huidige map in één commando:
 `./publiceer.sh "korte omschrijving"`. Zonder bericht gebruikt het script de datum en
-tijd. Het doet achtereenvolgens een typecheck en een proefbouw, stopt als er niets
-gewijzigd is, en anders `git add -A`, een commit en een push. Vercel pikt de push op.
-Let op: dit script draait `npm run typecheck` en `npm run build` en werkt dus alleen op
-een computer waar Node wel geïnstalleerd staat. Hier niet bruikbaar.
+tijd. Het doet `git add -A`, een commit en een push naar de huidige branch, en stopt
+als er niets gewijzigd is. Er wordt niets gebouwd of getypecheckt, dat doet Vercel na
+de push. Staat je op `main`, dan weigert het script te pushen en wijst het je erop dat
+live gaan via een merge naar `main` loopt.
 
 **`vernieuw-laflora.sh`** is bedoeld voor een nieuwe versie die als zip uit de chat komt.
 Het zoekt de nieuwste `laflora-bodyart*.zip` in de map Downloads, pakt die uit in een
