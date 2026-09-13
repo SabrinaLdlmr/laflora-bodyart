@@ -55,9 +55,9 @@ function magVersturen(ip: string): boolean {
 
   // Oude adressen opruimen, anders groeit de map ongemerkt door.
   if (verstuurd.size > 500) {
-    for (const [adres, tijden] of verstuurd) {
+    verstuurd.forEach((tijden, adres) => {
       if (tijden.every((t) => nu - t >= TIJDVAK_MS)) verstuurd.delete(adres);
-    }
+    });
   }
 
   return true;
@@ -126,10 +126,6 @@ export async function POST(request: Request) {
   }
 
   const sleutel = process.env.RESEND_API_KEY;
-  if (!sleutel) {
-    console.error("RESEND_API_KEY ontbreekt, het bericht is niet verstuurd.");
-    return fout("algemeen", 500);
-  }
 
   const onderwerp =
     taal === "en"
@@ -146,6 +142,19 @@ export async function POST(request: Request) {
     "",
     "Verstuurd via het contactformulier op hallo.laflorabodyart.nl",
   ].join("\n");
+
+  // Zonder sleutel versturen we niets, maar loopt het formulier wel door.
+  // Het bericht komt dan in het logboek van Vercel te staan, onder Runtime Logs.
+  // Let op: de bezoeker ziet dan gewoon de bevestiging, terwijl er geen mail
+  // aankomt. Dit is bedoeld voor de voorbeeldversies, niet voor de echte site.
+  if (!sleutel) {
+    console.log(
+      ["RESEND_API_KEY ontbreekt, dit bericht is niet verstuurd.", onderwerp, regels].join(
+        "\n",
+      ),
+    );
+    return NextResponse.json({ ok: true });
+  }
 
   try {
     const antwoord = await fetch("https://api.resend.com/emails", {
