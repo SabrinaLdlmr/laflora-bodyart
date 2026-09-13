@@ -18,7 +18,13 @@ const HOOGTE = 625;
  *
  * Het beeld was 446 bij 686. Onderin stond nog de bovenrand van een tweede,
  * bleke roos, die als een halve maan onder het ornament uitkwam. Die is
- * weggesneden, vandaar de hoogte van 625.
+ * weggesneden, vandaar de hoogte van 625. Het onaangeraakte origineel staat
+ * als laflora-bloem-origineel.png in dezelfde map.
+ *
+ * De bestandsnaam is daarna bewust veranderd. Het pad bleef eerder gelijk,
+ * waardoor browsers en de beeldcache van Vercel de oude versie met de halve
+ * maan bleven serveren terwijl de nieuwe allang gepubliceerd was. Een nieuwe
+ * naam is een nieuw adres, en dat kan geen cache overslaan.
  */
 export default function GoudenBloem({ groot = 64, className = "", prioriteit = false }: Props) {
   const hoogte = Math.round((groot * HOOGTE) / BREEDTE);
@@ -26,7 +32,7 @@ export default function GoudenBloem({ groot = 64, className = "", prioriteit = f
   return (
     <Image
       className={`bloem ${className}`}
-      src="/beelden/laflora-bloem.png"
+      src="/beelden/laflora-bloem-bijgesneden.png"
       alt="La Flora"
       width={groot}
       height={hoogte}
