@@ -884,7 +884,13 @@ img {
   margin-inline: auto;
   padding: clamp(5rem, 11vw, 8rem) clamp(1.75rem, 5vw, 4rem) clamp(3rem, 6vw, 4.5rem);
   border: 1px solid color-mix(in srgb, var(--kleur-goud) 24%, transparent);
-  border-radius: 50% 50% 30px 30px / 24% 24% 30px 30px;
+  /*
+   * De spiegel had een koepel: border-radius 50% aan de bovenkant maakte een
+   * halve ellips over de volle breedte, en de bloem stond in de top daarvan.
+   * Die boog liep dus als een halve cirkel onder de bloem door. Nu is het een
+   * rechthoek met ronde hoeken, en staat de bloem boven een rechte rand.
+   */
+  border-radius: 30px;
   background: radial-gradient(
     ellipse at 50% 34%,
     color-mix(in srgb, var(--kleur-champagne) 8%, transparent),
