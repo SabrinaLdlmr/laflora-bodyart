@@ -1,5 +1,6 @@
 import Link from "next/link";
 import AanbodKaart from "./AanbodKaart";
+import Contactformulier from "./Contactformulier";
 import Evenement from "./Evenement";
 import Glitters from "./Glitters";
 import Film from "./Film";
@@ -102,9 +103,8 @@ export default function Home({ taal }: { taal: Taal }) {
           <p className="bovenkop">{t.boeken.bovenkop}</p>
           <h2 className="sectie__titel">{t.boeken.titel}</h2>
           <p style={{ marginTop: "1.5rem", color: "var(--tekst-zacht)" }}>{t.boeken.tekst}</p>
-          <a href={`mailto:${t.boeken.email}`} className="knop knop--vol" style={{ marginTop: "1rem" }}>
-            {t.boeken.knop}
-          </a>
+          <Contactformulier taal={taal} />
+          <p className="boeken__ofmail">{t.boeken.formulier.ofMail}</p>
           <ul className="boeken__gegevens">
             <li>
               <a href={`mailto:${t.boeken.email}`}>{t.boeken.email}</a>

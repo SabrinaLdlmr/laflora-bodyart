@@ -1061,3 +1061,150 @@ img {
     animation: none;
   }
 }
+
+/* --------------------------------------------------------------------------
+   Contactformulier in het boeken-blok
+   -------------------------------------------------------------------------- */
+
+.formulier {
+  margin: var(--ruimte-4) auto 0;
+  max-width: 34rem;
+  text-align: left;
+  display: grid;
+  gap: var(--ruimte-3);
+}
+
+.formulier__titel {
+  margin: 0;
+  font-family: var(--letter-display);
+  font-size: var(--titel-s);
+  text-align: center;
+}
+
+.formulier__regel {
+  margin: 0;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.formulier__regel label {
+  font-size: var(--tekstgrootte-xs);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--tekst-zacht);
+}
+
+.formulier__verplicht {
+  letter-spacing: 0.08em;
+  text-transform: none;
+  opacity: 0.55;
+}
+
+.formulier input,
+.formulier textarea {
+  width: 100%;
+  font-family: var(--letter-tekst);
+  font-size: var(--tekstgrootte-m);
+  color: var(--tekst);
+  background: color-mix(in srgb, var(--kleur-inkt) 55%, transparent);
+  border: 1px solid var(--lijn);
+  border-radius: var(--ronding);
+  padding: 0.75rem 0.9rem;
+  transition: border-color 200ms ease, background 200ms ease;
+}
+
+.formulier textarea {
+  resize: vertical;
+  min-height: 7rem;
+}
+
+.formulier input::placeholder,
+.formulier textarea::placeholder {
+  color: color-mix(in srgb, var(--kleur-maanlicht) 34%, transparent);
+}
+
+.formulier input:focus-visible,
+.formulier textarea:focus-visible {
+  outline: none;
+  border-color: var(--kleur-goud);
+  background: color-mix(in srgb, var(--kleur-inkt) 75%, transparent);
+}
+
+.formulier input[aria-invalid="true"],
+.formulier textarea[aria-invalid="true"] {
+  border-color: var(--kleur-bloesem);
+}
+
+.formulier input:disabled,
+.formulier textarea:disabled {
+  opacity: 0.6;
+}
+
+.formulier__fout {
+  font-size: var(--tekstgrootte-s);
+  color: var(--kleur-bloesem);
+}
+
+.formulier__melding {
+  margin: 0;
+  font-size: var(--tekstgrootte-s);
+  color: var(--kleur-bloesem);
+  text-align: center;
+}
+
+.formulier__knop {
+  justify-self: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.formulier__knop:disabled {
+  cursor: progress;
+  opacity: 0.7;
+}
+
+/* Het honingpotje. Uit beeld, maar wel invulbaar voor wie niet kijkt. */
+.formulier__honing {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.formulier__gelukt {
+  margin: var(--ruimte-4) auto 0;
+  max-width: 34rem;
+  display: grid;
+  gap: var(--ruimte-2);
+  justify-items: center;
+  padding: var(--ruimte-4) var(--ruimte-3);
+  border: 1px solid var(--lijn);
+  border-radius: 26px 22px 28px 24px;
+  background: color-mix(in srgb, var(--kleur-druif) 24%, transparent);
+}
+
+.formulier__gelukt:focus-visible {
+  outline: 1px solid var(--kleur-goud);
+  outline-offset: 4px;
+}
+
+.formulier__geluktTitel {
+  margin: 0;
+  font-family: var(--letter-display);
+  font-size: var(--titel-s);
+  color: var(--kleur-champagne);
+}
+
+.formulier__geluktTekst {
+  margin: 0;
+  color: var(--tekst-zacht);
+  text-align: center;
+}
+
+.boeken__ofmail {
+  margin-top: var(--ruimte-4);
+  font-size: var(--tekstgrootte-s);
+  color: var(--tekst-zacht);
+}
