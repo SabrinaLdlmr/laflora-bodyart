@@ -23,7 +23,7 @@ export default function Home({ taal }: { taal: Taal }) {
         <Glitters />
         <div className="omhulsel">
           <Spiegel>
-          <p className="bovenkop">{t.hero.bovenkop}</p>
+          {t.hero.bovenkop && <p className="bovenkop">{t.hero.bovenkop}</p>}
           <h1 className="hero__naam">{t.hero.naam}</h1>
           <p className="hero__ondertitel">{t.hero.ondertitel}</p>
           <p className="hero__tekst">{t.hero.tekst}</p>
