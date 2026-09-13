@@ -1,7 +1,7 @@
 {
   "meta": {
     "titel": "La Flora Body Art",
-    "beschrijving": "The magic that stays, long after the paint is gone. Experience sessions, belly painting and body art for children, mothers and festivals."
+    "beschrijving": "The magic that stays, long after the paint is gone. Calm flower sessions at home for mothers and daughters, small girls' parties and highly sensitive children."
   },
   "nav": {
     "merk": "La Flora",
@@ -14,10 +14,10 @@
     "taalHref": "/"
   },
   "hero": {
-    "bovenkop": "Experience sessions",
+    "bovenkop": "Calm flower sessions at home",
     "naam": "La Flora",
     "ondertitel": "The magic that stays, long after the paint is gone",
-    "tekst": "I do not paint children's faces. I let them experience themselves as magic. With colour, scent, attention and wonder I anchor a feeling that travels home with them.",
+    "tekst": "I let children experience themselves as magic. Small, calm and with all the time in the world: a mother and daughter together, a handful of friends at a birthday, or a child who feels a lot and for that very reason sits still the longest.",
     "knopPrimair": "Book a session",
     "knopSecundair": "See the work"
   },
@@ -52,13 +52,32 @@
   "aanbod": {
     "bovenkop": "Work",
     "titel": "What I make",
-    "intro": "Every session holds a moment where someone truly sees herself. Beautiful, remarkable, exactly right as she is. Choose what suits your moment.",
+    "intro": "Every session holds a moment where someone truly sees herself. I work with small groups, in a calm place, usually at your home. Choose what suits your moment.",
     "meer": "Read more",
     "items": [
       {
+        "slug": "moeder-dochter-experience",
+        "naam": "Mother daughter experience",
+        "kort": "Side by side at the mirror, both painted, and photos to keep. An afternoon that revolves around just the two of you.",
+        "beeld": "/beelden/bloemen-op-de-schouder.jpg",
+        "duur": "90 minutes",
+        "vanaf": "125 euro together",
+        "voor": "From around five years old",
+        "beschrijving": [
+          "You arrive together and sit down next to each other. She chooses first, then you, and then I paint you both.",
+          "It is about the mirror. About the moment she sees herself and goes completely quiet, and about you sitting beside her with flowers on your own shoulder.",
+          "We finish with photos. You receive those a few days later.",
+          "There is all the time in the world. For children who feel a lot that means looking first, touching next, and painting only when she is ready."
+        ],
+        "praktisch": [
+          "At your home or in my studio",
+          "Photos arrive a few days later"
+        ]
+      },
+      {
         "slug": "magische-bloemenbeleving",
         "naam": "Magical flower experience",
-        "kort": "Ninety minutes at your home, for one to three children, with a paint case and a lit mirror.",
+        "kort": "Ninety minutes at your home, for one to three children, with a paint case and a lit mirror. Perfect for a small birthday party.",
         "beeld": "/beelden/bloemen-op-het-gezicht.jpg",
         "duur": "an hour and a half",
         "vanaf": "110 euro per session",
@@ -79,47 +98,29 @@
         ]
       },
       {
-        "slug": "moeder-dochter-experience",
-        "naam": "Mother daughter experience",
-        "kort": "Side by side at the mirror, both painted, and photos to keep.",
-        "beeld": "/beelden/bloemen-op-de-schouder.jpg",
-        "duur": "90 minutes",
-        "vanaf": "125 euro together",
-        "voor": "From around five years old",
-        "beschrijving": [
-          "You arrive together and sit down next to each other. She chooses first, then you, and then I paint you both.",
-          "It is about the mirror. About the moment she sees herself and goes completely quiet, and about you sitting beside her with flowers on your own shoulder.",
-          "We finish with photos. You receive those a few days later.",
-          "There is all the time in the world. For children who feel a lot that means looking first, touching next, and painting only when she is ready."
-        ],
-        "praktisch": [
-          "At your home or in my studio",
-          "Photos arrive a few days later"
-        ]
-      },
-      {
-        "slug": "festivals",
-        "naam": "Conscious festivals",
-        "kort": "A spot on the grounds where people sit down and get up adorned.",
+        "slug": "workshop-voor-tieners",
+        "naam": "Workshop for teens",
+        "kort": "A small group of girls learns to paint on skin. Everyone goes home with a flower on a friend's arm. On request, from four to six participants.",
         "beeld": "/beelden/bloem-op-de-hand.jpg",
-        "duur": "half day or full day",
-        "vanaf": "from 350 euro per half day",
-        "voor": "Festivals, ceremonies and retreats",
+        "duur": "an afternoon, by arrangement",
+        "vanaf": "on request",
+        "voor": "A group of four to six girls",
         "beschrijving": [
-          "At a festival I love working with flowers on shoulders, collarbones and faces. Large enough to see from a distance, fine enough to study up close.",
-          "I bring my own corner: a table, a mirror, candles and a chair where you have to do nothing at all for a while.",
-          "I work with skin friendly paint and plant based glitter, so the grounds stay free of microplastics.",
-          "My corner is the quiet place on the grounds, also for visitors who need a break from the noise."
+          "A small group of girls, a table full of colour, and an afternoon to learn it yourself. I show you how paint behaves on skin, how to let a line grow and where to place glitter and gems so the light finds them.",
+          "They practise on a board first, then on each other. Everyone goes home with a flower on a friend's arm, and with the feeling that she made it herself.",
+          "All materials are ready for you. Come with empty hands and zero experience, just a willingness to get them dirty."
         ],
         "praktisch": [
-          "I bring my own table, mirror and chair",
-          "Skin friendly paint and plant based glitter"
+          "For a group of four to six girls",
+          "At your home or another calm place",
+          "All materials are ready, no experience needed",
+          "On request. We agree on the length and the price together"
         ]
       },
       {
         "slug": "bellypainting",
         "naam": "Belly painting",
-        "kort": "Your pregnant belly as a flower garden, painted in about an hour.",
+        "kort": "Your pregnant belly as a flower garden, painted in about an hour. Calm, at your home, with photos to remember it by.",
         "beeld": "/beelden/bellypainting.jpg",
         "duur": "60 to 90 minutes",
         "vanaf": "from 95 euro",
@@ -179,7 +180,7 @@
     "stappen": [
       {
         "titel": "You send a message",
-        "tekst": "Tell me about the day, the place and the number of people. I let you know within two days whether I am free."
+        "tekst": "Tell me about the day, the place and who it is for. I work with small groups in a calm place; together we look at whether that fits. I let you know within two days whether I am free."
       },
       {
         "titel": "We choose together",
@@ -199,7 +200,7 @@
     "bovenkop": "About La Flora",
     "titel": "Where magic is an experience",
     "tekst": [
-      "I am Jasmina, an artist with a love for flowers, lines and glitter. I paint slowly. First you feel the brush on your hand, only then on your face. I say what I am about to do before I do it, and we stop the moment you want to.",
+      "I am Jasmina, an artist with a love for flowers, lines and glitter. I paint slowly. First you feel the brush on your hand, only then on your face. I say what I am about to do before I do it, and we stop the moment you want to. That is why I work small, so that I can really see every child.",
       "For children who feel a lot, that makes all the difference. All the time in the world, gentle hands, and someone who asks before she touches. Parents of highly sensitive children know how rare that is, and those children often sit still the longest.",
       "I work from experience. My work is built with care, driven by a love of detail and feeling. What I bring is paint, glitter, a mirror and the calm to really take my time. At your home, at your venue or on the festival grounds."
     ],
@@ -208,7 +209,7 @@
   "boeken": {
     "bovenkop": "Book",
     "titel": "Shall we pick a date",
-    "tekst": "Send a message with the date, the place and what you have in mind. I reply within two days.",
+    "tekst": "Send a message with the date, the place and what you have in mind. A small group, a calm place, all the time in the world: that is what I am best at. I reply within two days.",
     "knop": "Email La Flora",
     "email": "jasminaswonderland@gmail.com",
     "telefoon": "+31 6 00 00 00 00",
