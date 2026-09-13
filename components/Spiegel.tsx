@@ -57,7 +57,11 @@ export default function Spiegel({ children }: { children: ReactNode }) {
       </div>
 
       <div className="spiegel__bloem">
-        <GoudenBloem groot={142} prioriteit />
+        {/*
+          176 is de grootste maat die de css gebruikt, zie --bloem-hero.
+          Zo wordt het beeld altijd verkleind en nooit opgerekt.
+        */}
+        <GoudenBloem groot={176} prioriteit />
       </div>
 
       {children}

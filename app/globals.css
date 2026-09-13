@@ -64,6 +64,13 @@
   --breedte-tekst: 62ch;
   --ronding: 2px;
   --ronding-groot: 200px;
+
+  /*
+   * De breedte van de bloem in de hero. Op een telefoon 104 pixels, op een
+   * breed scherm 176. De hoogte volgt vanzelf uit de verhouding van het
+   * beeld, want de bloem heeft nergens een vaste hoogte.
+   */
+  --bloem-hero: clamp(6.5rem, 12vw, 11rem);
 }
 
 /* --------------------------------------------------------------------------
@@ -288,13 +295,17 @@ img {
 .hero {
   /*
    * De bloem staat in de top van de spiegelboog en wordt daar met
-   * translate(-50%, -48%) bovenuit getild, zo'n 96 pixels bij de maat die
-   * in de hero gebruikt wordt. De navigatiebalk erboven is sticky met
-   * z-index 20 en heeft een eigen achtergrond, dus alles wat hier te hoog
-   * komt verdwijnt erachter en dan is de gouden kroon afgesneden.
-   * De ruimte hieronder moet dus ruimer zijn dan die 96 pixels.
+   * translate(-50%, -48%) bovenuit getild. Dat is 48 procent van haar
+   * hoogte, en die hoogte is de breedte maal 625 gedeeld door 446. Samen
+   * komt dat neer op 0,68 maal de breedte.
+   *
+   * De navigatiebalk erboven is sticky met z-index 20 en heeft een eigen
+   * achtergrond, dus alles wat daar te hoog komt verdwijnt erachter en dan
+   * is de gouden kroon afgesneden. Door de ruimte hieronder uit te rekenen
+   * in plaats van te gokken, blijft er op elk schermformaat 2rem over
+   * tussen de kroon en de balk, ook als de maat van de bloem verandert.
    */
-  padding-block: clamp(7.5rem, 12vw, 10rem) var(--ruimte-5);
+  padding-block: calc(var(--bloem-hero) * 0.68 + 2rem) var(--ruimte-5);
   text-align: center;
 }
 
@@ -952,6 +963,15 @@ img {
 
 .bloem {
   display: block;
+  /*
+   * De hoogte volgt altijd de breedte, zodat het beeld nooit uitgerekt of
+   * bijgesneden raakt. object-fit: contain is het vangnet: mocht het
+   * bestand ooit vervangen worden door een beeld met een andere verhouding,
+   * dan past de bloem zich in het vlak in plaats van dat de kroon eraf gaat.
+   */
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
   filter: drop-shadow(0 3px 26px color-mix(in srgb, var(--kleur-marrakech) 55%, transparent));
 }
 
@@ -960,7 +980,10 @@ img {
   top: 0;
   left: 50%;
   transform: translate(-50%, -48%);
-  padding: 0 30px;
+}
+
+.spiegel__bloem .bloem {
+  width: var(--bloem-hero);
 }
 
 /* De sierlijn tussen de secties, met de bloem in het midden */
@@ -991,12 +1014,6 @@ img {
     color-mix(in srgb, var(--kleur-goud) 70%, transparent),
     transparent
   );
-}
-
-@media (max-width: 620px) {
-  .spiegel__bloem {
-    padding: 4px;
-  }
 }
 
 
