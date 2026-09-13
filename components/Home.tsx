@@ -79,6 +79,30 @@ export default function Home({ taal }: { taal: Taal }) {
         />
       </Sectie>
 
+      <Sectie id="voor-wie" titel={t.voorwie.titel} intro={t.voorwie.intro}>
+        <ul className="kenmerken">
+          {t.voorwie.punten.map((punt) => (
+            <li key={punt.slice(0, 24)}>{punt}</li>
+          ))}
+        </ul>
+      </Sectie>
+
+      <Sectie id="vragen" titel={t.vragen.titel}>
+        {/*
+          details en summary zijn het ingebouwde uitklapmechanisme van de
+          browser. Geen javascript nodig, en het werkt met het toetsenbord en
+          met een schermlezer zoals het hoort.
+        */}
+        <div className="vragen">
+          {t.vragen.items.map((item) => (
+            <details key={item.vraag} className="vraag">
+              <summary>{item.vraag}</summary>
+              <p className="vraag__antwoord">{item.antwoord}</p>
+            </details>
+          ))}
+        </div>
+      </Sectie>
+
       <Sectie id="over">
         <div className="tweeluik">
           <div>

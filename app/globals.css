@@ -1239,3 +1239,102 @@ img {
   font-size: var(--tekstgrootte-s);
   color: var(--tekst-zacht);
 }
+
+/* --------------------------------------------------------------------------
+   Voor wie het is
+   Dezelfde opzet als de lijst onder Goed om te weten, zodat de site
+   één handschrift houdt.
+   -------------------------------------------------------------------------- */
+
+.kenmerken {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--ruimte-2);
+  max-width: var(--breedte-tekst);
+}
+
+.kenmerken li {
+  position: relative;
+  padding-left: 1.6rem;
+  color: var(--tekst-zacht);
+}
+
+.kenmerken li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.8em;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--kleur-goud);
+  opacity: 0.8;
+}
+
+/* --------------------------------------------------------------------------
+   Veelgestelde vragen
+   Uitklapbaar met details en summary, dus zonder javascript.
+   -------------------------------------------------------------------------- */
+
+.vragen {
+  display: grid;
+  max-width: var(--breedte-tekst);
+}
+
+.vraag {
+  border-bottom: 1px solid var(--lijn);
+}
+
+.vraag summary {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--ruimte-2);
+  padding-block: var(--ruimte-2);
+  cursor: pointer;
+  font-family: var(--letter-display);
+  font-style: italic;
+  font-size: var(--tekstgrootte-l);
+  color: var(--tekst);
+  transition: color 160ms ease;
+}
+
+/* Het standaard driehoekje van de browser weghalen, we zetten er zelf een teken naast. */
+.vraag summary {
+  list-style: none;
+}
+
+.vraag summary::-webkit-details-marker {
+  display: none;
+}
+
+.vraag summary::after {
+  content: "+";
+  flex: none;
+  font-family: var(--letter-tekst);
+  font-size: var(--tekstgrootte-l);
+  line-height: 1;
+  color: var(--accent);
+  transition: transform 200ms ease;
+}
+
+.vraag[open] summary::after {
+  content: "–";
+}
+
+.vraag summary:hover {
+  color: var(--kleur-goud-licht);
+}
+
+.vraag summary:focus-visible {
+  outline: 1px solid var(--kleur-goud);
+  outline-offset: 4px;
+}
+
+.vraag__antwoord {
+  margin: 0 0 var(--ruimte-3);
+  padding-right: var(--ruimte-3);
+  color: var(--tekst-zacht);
+}

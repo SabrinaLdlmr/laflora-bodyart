@@ -8,6 +8,7 @@
     "evenement": "Workshop",
     "aanbod": "Aanbod",
     "werkwijze": "Zo werkt het",
+    "vragen": "Veelgestelde vragen",
     "over": "Over La Flora",
     "boeken": "Boeken",
     "taal": "English",
@@ -193,6 +194,58 @@
       {
         "titel": "Het gevoel blijft",
         "tekst": "De schmink gaat er met water en zeep uit. Wat overblijft is de herinnering aan een middag waarop alles om haar draaide."
+      }
+    ]
+  },
+  "voorwie": {
+    "titel": "Voor wie het is",
+    "intro": "La Flora is voor jou als je hier iets in herkent.",
+    "punten": [
+      "Je houdt van bloemen, blaadjes, ranken en van dingen die glinsteren.",
+      "Je kind voelt veel, en jij wilt iemand die vraagt voordat ze aanraakt.",
+      "Je zoekt een moment dat helemaal om haar draait, en niet om de klok.",
+      "Je vindt rust en aandacht belangrijker dan snelheid en aantallen.",
+      "Je wilt foto's waar je later nog naar kijkt."
+    ]
+  },
+  "vragen": {
+    "titel": "Veelgestelde vragen",
+    "items": [
+      {
+        "vraag": "Wat schilder je?",
+        "antwoord": "Bloemen, in alle soorten. Rozen, lotussen, kleine veldbloemen, blaadjes en ranken, met glitter en steentjes waar het licht valt. Soms een vlinder of een ster ertussen. Alles wat zacht, licht en organisch is. Dat is mijn handschrift en daar ben ik het beste in."
+      },
+      {
+        "vraag": "Mijn kind wil een spin of een draak. Kan dat?",
+        "antwoord": "Bij mij wordt alles een bloem. Een spin wordt een sterrenbloem met acht blaadjes, een draak een rank van vuurkleurige bloemen langs de arm. Zij kiest het idee, ik vertaal het naar mijn taal. Voor stoere dieren en monsters zoals je ze kent van de kermis kun je beter bij een klassieke kinderschminker terecht; dat maakt ieder zijn eigen ding."
+      },
+      {
+        "vraag": "En met Halloween?",
+        "antwoord": "Dan schilder ik happy skulls: vrolijke schedels vol bloemen, in de stijl van de Mexicaanse Día de los Muertos. Kleurrijk, met rozen rond de ogen en glitter op de wangen. Feestelijk in plaats van eng."
+      },
+      {
+        "vraag": "Voor welke leeftijd?",
+        "antwoord": "Vanaf ongeveer vier jaar, en er is geen bovengrens. Moeders, tieners en zwangere buiken zijn net zo welkom als kleine meiden."
+      },
+      {
+        "vraag": "Hoeveel kinderen tegelijk?",
+        "antwoord": "Een tot drie bij een bloemenbeleving, vier tot zes bij een tienerworkshop. Zo heeft iedereen alle tijd voor de spiegel."
+      },
+      {
+        "vraag": "Waar vindt het plaats?",
+        "antwoord": "Bij jou thuis, of op een rustige plek die we samen kiezen. Ik neem alles mee: verf, glitter, spiegel en licht."
+      },
+      {
+        "vraag": "Hoe lang blijft het zitten?",
+        "antwoord": "Een dag, soms twee. Met water en zeep is het zo weg. De foto's blijven."
+      },
+      {
+        "vraag": "Is de verf veilig?",
+        "antwoord": "Ik werk met professionele, huidvriendelijke schmink en cosmetische glitter. Bij een gevoelige huid test ik eerst een klein stukje op de hand."
+      },
+      {
+        "vraag": "Kan ik het cadeau geven?",
+        "antwoord": "Ja, een sessie is een mooi cadeau voor een verjaardag, een babyshower of gewoon zo. Stuur me een bericht, dan maak ik er een cadeaubon van."
       }
     ]
   },

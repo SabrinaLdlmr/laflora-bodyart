@@ -15,9 +15,13 @@ De code staat op GitHub: https://github.com/SabrinaLdlmr/laflora-bodyart
 volledig op Vercel: zodra er naar GitHub gepusht wordt, bouwt Vercel de nieuwe versie.
 Controleer wijzigingen door de code te lezen, niet door lokaal te bouwen.
 
-**Altijd op branch `test` werken.** Maak wijzigingen en commits op `test`, nooit direct
-op `main`. `main` is de branch die live gaat. Samenvoegen naar `main` gebeurt bewust en
-apart, niet als vanzelfsprekend onderdeel van een wijziging.
+**Werken mag direct op `main`.** Gewone wijzigingen en commits gaan op `main`. Een push
+naar `main` gaat rechtstreeks live via Vercel, dus dat is het moment om zeker te weten
+dat het klopt.
+
+**De branch `test` is optioneel.** Gebruik die voor grotere experimenten, als je eerst
+een voorbeeldversie wilt zien voordat het live gaat. Vercel bouwt van elke branch een
+eigen voorbeeldversie. Is het goed, dan voeg je `test` samen met `main`.
 
 **Nederlands is de voertaal.** Overleg, commitberichten, comments in de code en
 documentatie zijn in het Nederlands.

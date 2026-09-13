@@ -8,6 +8,7 @@
     "evenement": "Workshop",
     "aanbod": "Work",
     "werkwijze": "How it works",
+    "vragen": "Questions",
     "over": "About",
     "boeken": "Book",
     "taal": "Nederlands",
@@ -193,6 +194,58 @@
       {
         "titel": "The feeling stays",
         "tekst": "The paint comes off with water and soap. What remains is the memory of an afternoon that revolved entirely around her."
+      }
+    ]
+  },
+  "voorwie": {
+    "titel": "Who it is for",
+    "intro": "La Flora is for you if you recognise something here.",
+    "punten": [
+      "You love flowers, leaves, vines and things that glitter.",
+      "Your child feels a lot, and you want someone who asks before she touches.",
+      "You are looking for a moment that revolves entirely around her, not around the clock.",
+      "You find calm and attention more important than speed and numbers.",
+      "You want photos you will still look at years from now."
+    ]
+  },
+  "vragen": {
+    "titel": "Frequently asked questions",
+    "items": [
+      {
+        "vraag": "What do you paint?",
+        "antwoord": "Flowers, in every kind. Roses, lotuses, small wild flowers, leaves and vines, with glitter and gems where the light falls. Sometimes a butterfly or a star in between. Everything that is soft, light and organic. That is my handwriting and it is what I am best at."
+      },
+      {
+        "vraag": "My child wants a spider or a dragon. Is that possible?",
+        "antwoord": "With me everything becomes a flower. A spider becomes a star flower with eight petals, a dragon a vine of fire-coloured flowers along the arm. She chooses the idea, I translate it into my language. For tough animals and monsters as you know them from the fairground a classic children's face painter is the better choice; that way everyone does their own thing."
+      },
+      {
+        "vraag": "And at Halloween?",
+        "antwoord": "Then I paint happy skulls: cheerful skulls full of flowers, in the style of the Mexican Día de los Muertos. Colourful, with roses around the eyes and glitter on the cheeks. Festive rather than frightening."
+      },
+      {
+        "vraag": "From what age?",
+        "antwoord": "From around four years old, and there is no upper limit. Mothers, teenagers and pregnant bellies are just as welcome as little girls."
+      },
+      {
+        "vraag": "How many children at once?",
+        "antwoord": "One to three for a flower experience, four to six for a teen workshop. That way everyone has all the time in the world at the mirror."
+      },
+      {
+        "vraag": "Where does it take place?",
+        "antwoord": "At your home, or in a calm place we choose together. I bring everything: paint, glitter, a mirror and light."
+      },
+      {
+        "vraag": "How long does it stay on?",
+        "antwoord": "A day, sometimes two. With water and soap it comes right off. The photos stay."
+      },
+      {
+        "vraag": "Is the paint safe?",
+        "antwoord": "I work with professional, skin-friendly face paint and cosmetic glitter. For sensitive skin I test a small patch on the hand first."
+      },
+      {
+        "vraag": "Can I give it as a gift?",
+        "antwoord": "Yes, a session makes a lovely gift for a birthday, a baby shower or just because. Send me a message and I will turn it into a gift voucher."
       }
     ]
   },

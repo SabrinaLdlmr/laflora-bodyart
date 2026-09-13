@@ -14,6 +14,7 @@ export default function Nav({ taal }: { taal: Taal }) {
           <Link href={pad(taal, "/#workshop")}>{t.nav.evenement}</Link>
           <Link href={pad(taal, "/#aanbod")}>{t.nav.aanbod}</Link>
           <Link href={pad(taal, "/#werkwijze")}>{t.nav.werkwijze}</Link>
+          <Link href={pad(taal, "/#vragen")}>{t.nav.vragen}</Link>
           <Link href={pad(taal, "/#over")}>{t.nav.over}</Link>
           <Link href={pad(taal, "/#boeken")}>{t.nav.boeken}</Link>
           <Link href={t.nav.taalHref} className="nav__taal" hrefLang={taal === "nl" ? "en" : "nl"}>

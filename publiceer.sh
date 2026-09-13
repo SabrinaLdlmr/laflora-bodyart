@@ -12,11 +12,8 @@ BERICHT="${1:-update $(date '+%d-%m-%Y %H:%M')}"
 BRANCH="$(git rev-parse --abbrev-ref HEAD)"
 
 if [[ "$BRANCH" == "main" ]]; then
-  echo "Je staat op main. Daar publiceren we niet rechtstreeks."
-  echo "Werk op de branch test en zet het daarna live met een merge naar main."
+  echo "Let op: je staat op main. Dit gaat rechtstreeks live."
   echo ""
-  echo "Overstappen kan zo:  git checkout test"
-  exit 1
 fi
 
 if [[ -z "$(git status --porcelain)" ]]; then
@@ -32,6 +29,11 @@ echo "→ Naar GitHub sturen"
 git push -u origin "$BRANCH"
 
 echo ""
-echo "Klaar. De branch $BRANCH staat nu op GitHub."
-echo "Vercel maakt hiervan een voorbeeldversie."
-echo "Live zetten doe je door $BRANCH samen te voegen met main."
+if [[ "$BRANCH" == "main" ]]; then
+  echo "Klaar. Vercel bouwt nu de nieuwe versie."
+  echo "Over een minuut of twee staat het live op https://hallo.laflorabodyart.nl"
+else
+  echo "Klaar. De branch $BRANCH staat nu op GitHub."
+  echo "Vercel maakt hiervan een voorbeeldversie."
+  echo "Live zetten doe je door $BRANCH samen te voegen met main."
+fi
