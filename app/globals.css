@@ -286,7 +286,15 @@ img {
    -------------------------------------------------------------------------- */
 
 .hero {
-  padding-block: clamp(2.5rem, 6vw, 5rem) var(--ruimte-5);
+  /*
+   * De bloem staat in de top van de spiegelboog en wordt daar met
+   * translate(-50%, -48%) bovenuit getild, zo'n 96 pixels bij de maat die
+   * in de hero gebruikt wordt. De navigatiebalk erboven is sticky met
+   * z-index 20 en heeft een eigen achtergrond, dus alles wat hier te hoog
+   * komt verdwijnt erachter en dan is de gouden kroon afgesneden.
+   * De ruimte hieronder moet dus ruimer zijn dan die 96 pixels.
+   */
+  padding-block: clamp(7.5rem, 12vw, 10rem) var(--ruimte-5);
   text-align: center;
 }
 
