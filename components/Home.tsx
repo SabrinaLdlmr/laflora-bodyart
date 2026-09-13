@@ -109,14 +109,6 @@ export default function Home({ taal }: { taal: Taal }) {
             <li>
               <a href={`mailto:${t.boeken.email}`}>{t.boeken.email}</a>
             </li>
-            <li>
-              <a href={`tel:${t.boeken.telefoon.replace(/\s/g, "")}`}>{t.boeken.telefoon}</a>
-            </li>
-            <li>
-              <a href={t.boeken.instagramHref} target="_blank" rel="noreferrer">
-                {t.boeken.instagram}
-              </a>
-            </li>
           </ul>
         </div>
       </Sectie>

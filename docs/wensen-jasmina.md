@@ -14,8 +14,10 @@ Vink af wat klaar is en laat erbij staan wanneer het gedaan is.
 - [ ] **KvK-nummer in de footer zetten.** Het nummer is er nog niet, dus eerst opvragen
       bij Jasmina. La Flora staat als handelsnaam ingeschreven bij de KvK.
 
-- [ ] **Telefoonnummer vervangen.** Er staat nu een plaatshouder, 06 00 00 00 00. Het
-      echte nummer moet nog opgevraagd worden.
+- [x] **Telefoonnummer vervangen.** Vervallen op 13 september 2026. Het nummer is
+      helemaal van de site gehaald, ook uit `en.json`, dus er hoeft geen echt nummer
+      meer opgevraagd te worden. Onder het contactformulier staat nu alleen nog het
+      e-mailadres.
 
 ## Open punten uit het homepagevoorstel
 
