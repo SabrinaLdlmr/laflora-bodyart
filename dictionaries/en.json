@@ -261,35 +261,56 @@
   },
   "passend": {
     "titel": "Is my way of working a good fit for your party?",
-    "intro": [
-      "When you book me, you are choosing a personal experience and a little fairytale magic. My speciality is detailed floral and line work, and I practise it every single day to keep refining my technique. I'm proud of where my work is today, and I keep practising because I love to grow and lift it to a higher level each time.",
-      "After 25 years of working with children, I bring more than just my brushes. I bring a natural calm and a real feel for the way children experience the world. To make sure every child gets that personal attention and care, I work with a set approach:"
-    ],
-    "punten": [
+    "intro": "When you book me, you are choosing a personal experience and a little fairytale magic. My speciality is detailed floral and line work, and I practise it every single day to keep refining my technique. I'm proud of where my work is today, and I keep practising because I love to grow and lift it to a higher level each time.",
+    "onderdelen": [
       {
-        "kop": "Time to connect:",
-        "tekst": "I work best in a separate, quiet room. It gives me the focus I need for fine brushwork, and that is exactly what makes room for real, cosy, personal moments with each child in my chair."
+        "kop": "You're choosing a work of art, not an entertainer",
+        "tekst": "You may be used to a face painter copying whatever is asked for, with you as the client deciding what happens. Within my concept, things work in a fundamentally different way. You are not hiring an entertainer to follow instructions. You are choosing me as an independent artist, and my work as something truly exclusive.",
+        "punten": [
+          {
+            "kop": "I lead the way:",
+            "tekst": "You are choosing my own style, signature and expertise. Nothing is fixed in advance; I decide on the brush and line work in the moment."
+          },
+          {
+            "kop": "Made for your child:",
+            "tekst": "My floral and line work grows from within. I look at the child in my chair and let the colours and shapes follow their unique expressions and sparkle."
+          },
+          {
+            "kop": "Calm and quality:",
+            "tekst": "It is precisely by leaving the reins entirely to me that the serene fairytale atmosphere and refined elegance my work is known for can unfold."
+          }
+        ]
       },
       {
-        "kop": "Excitement by the chair:",
-        "tekst": "There is room for two children at a time: the one in the chair and one who gets to watch. Those moments of watching build a lovely sense of anticipation for their own transformation."
-      },
-      {
-        "kop": "A helping hand from the host:",
-        "tekst": "So I can keep my full attention on the child in the chair, the host or organiser makes sure the children are calmly brought in and picked up, one at a time."
-      },
-      {
-        "kop": "Quality over quantity:",
-        "tekst": "To give every design and every child the care they deserve, I paint a maximum of 8 children per 1.5 hours."
-      },
-      {
-        "kop": "Compliments afterwards:",
-        "tekst": "I absolutely love hearing what you think of my work! Feel free to save it until I'm done. While I'm painting, I like to keep my attention fully on the child in the chair."
+        "kop": "How I work at your party",
+        "tekst": "After 25 years of working with children, I bring more than just my brushes. I bring a natural calm and a real feel for the way children experience the world. To make sure every child gets that personal attention and care, I work with a set approach:",
+        "punten": [
+          {
+            "kop": "Time to connect:",
+            "tekst": "I work best in a separate, quiet room. It gives me the focus I need for fine brushwork, and that is exactly what makes room for real, cosy, personal moments with each child in my chair."
+          },
+          {
+            "kop": "Excitement by the chair:",
+            "tekst": "There is room for two children at a time: the one in the chair and one who gets to watch. Those moments of watching build a lovely sense of anticipation for their own transformation."
+          },
+          {
+            "kop": "A helping hand from the host:",
+            "tekst": "So I can keep my full attention on the child in the chair, the host or organiser makes sure the children are calmly brought in and picked up, one at a time."
+          },
+          {
+            "kop": "Quality over quantity:",
+            "tekst": "To give every design and every child the care they deserve, I paint a maximum of 8 children per 1.5 hours."
+          },
+          {
+            "kop": "Compliments afterwards:",
+            "tekst": "I absolutely love hearing what you think of my work! Feel free to save it until I'm done. While I'm painting, I like to keep my attention fully on the child in the chair."
+          }
+        ]
       }
     ],
     "slot": [
-      "Looking for an all-round face painter who can paint a big group of children in quick succession, right in the middle of the party buzz? Then another face painter will probably suit you better.",
-      "Are you choosing calm, personal attention for the children and craftsmanship that grows every day? Then I would love to bring that feeling to your party."
+      "Looking for a face painter who can paint a big group of children at speed in the middle of the party buzz, or would you rather decide for yourself what gets painted? Then an all-round fellow face painter will probably suit you better, and I will happily point you in the right direction.",
+      "Are you choosing calm, personal attention and craftsmanship, and do you fully trust my style and vision? Then I would love to create something truly exceptional for your party."
     ]
   },
   "boeken": {

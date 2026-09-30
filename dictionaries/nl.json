@@ -261,35 +261,56 @@
   },
   "passend": {
     "titel": "Past mijn werkwijze bij jouw feest?",
-    "intro": [
-      "Wanneer je mij boekt, kies je voor een persoonlijke ervaring en mijn focus op sprookjessfeer. Mijn specialisme ligt in gedetailleerd bloemen- en lijnenwerk. Ik ben hier dagelijks mee bezig om mijn techniek te verfijnen. Mijn werk is nu al heel mooi, maar ik blijf oefenen omdat ik mezelf continu wil verbeteren en telkens naar een hoger niveau wil tillen.",
-      "Met 25 jaar ervaring in het werken met kinderen neem ik niet alleen mijn penselen mee, maar ook een natuurlijke rust en echte affiniteit met de belevingswereld van het kind. Om die persoonlijke aandacht en kwaliteit te kunnen garanderen, werk ik volgens een vast concept:"
-    ],
-    "punten": [
+    "intro": "Wanneer je mij boekt, kies je voor een persoonlijke ervaring en mijn focus op sprookjessfeer. Mijn specialisme ligt in gedetailleerd bloemen- en lijnenwerk. Ik ben hier dagelijks mee bezig om mijn techniek te verfijnen. Mijn werk is nu al heel mooi, maar ik blijf oefenen omdat ik mezelf continu wil verbeteren en telkens naar een hoger niveau wil tillen.",
+    "onderdelen": [
       {
-        "kop": "Tijd voor contact:",
-        "tekst": "Ik werk het beste in een aparte, rustige ruimte. Dit geeft mij de nodige concentratie voor het fijne penseelwerk, maar zorgt er júist voor dat er ruimte is voor echt, gezellig en persoonlijk contact met de kinderen aan de stoel."
+        "kop": "Je kiest voor een kunstwerk, niet voor een entertainer",
+        "tekst": "Misschien ben je gewend dat een schminker op verzoek alles natekent en dat jij als klant bepaalt wat er gebeurt. Binnen mijn concept werkt dat fundamenteel anders. Je huurt mij niet in als entertainer aan wie je alles kunt opdragen. Je kiest voor mij als autonome kunstenares en je koopt mijn werk als een exclusief product.",
+        "punten": [
+          {
+            "kop": "De regie ligt bij mij:",
+            "tekst": "Je kiest bewust voor míjn specifieke stijl, handtekening en expertise. Het design staat vooraf niet vast; ik bepaal het penseel- en lijnwerk in het moment."
+          },
+          {
+            "kop": "Afgestemd op het kind:",
+            "tekst": "Mijn bloemen- en lijnenwerk ontstaat van binnenuit. Ik kijk naar het kind in mijn stoel en stem de kleuren en vormen organisch af op hun unieke mimiek en uitstraling."
+          },
+          {
+            "kop": "Rust en kwaliteit:",
+            "tekst": "Juist door de touwtjes volledig aan mij over te laten, ontstaat de serene sprookjessfeer en de verfijnde klasse waar mijn werk om bekendstaat."
+          }
+        ]
       },
       {
-        "kop": "Voorpret aan de stoel:",
-        "tekst": "In de ruimte is plek voor maximaal twee kinderen: het kind op de stoel en één kind dat mag toekijken. Dit moment van kijken bouwt de gezonde spanning en voorpret voor hun eigen transformatie prachtig op."
-      },
-      {
-        "kop": "Begeleiding vanuit de organisatie:",
-        "tekst": "Omdat ik mijn volledige aandacht bij het kind in de stoel en het contact wil houden, zorgt de gastvrouw of organisatie ervoor dat de kinderen rustig één voor één worden gebracht en gehaald."
-      },
-      {
-        "kop": "Kwaliteit boven kwantiteit:",
-        "tekst": "Om elk design en elk kind de waarde te geven die het verdient, help ik een maximum van 8 kinderen per 1,5 uur."
-      },
-      {
-        "kop": "Complimenten na afloop:",
-        "tekst": "Ik vind het onwijs leuk om reacties op mijn werk te horen! Bewaar ze gerust tot ik klaar ben. Tijdens het schilderen houd ik mijn aandacht graag volledig bij het kind in de stoel."
+        "kop": "Zo werk ik op jouw feest",
+        "tekst": "Met 25 jaar ervaring in het werken met kinderen neem ik niet alleen mijn penselen mee, maar ook een natuurlijke rust en echte affiniteit met de belevingswereld van het kind. Om die persoonlijke aandacht en kwaliteit te kunnen garanderen, werk ik volgens een vast concept:",
+        "punten": [
+          {
+            "kop": "Tijd voor contact:",
+            "tekst": "Ik werk het beste in een aparte, rustige ruimte. Dit geeft mij de nodige concentratie voor het fijne penseelwerk, maar zorgt er júist voor dat er ruimte is voor echt, gezellig en persoonlijk contact met de kinderen aan de stoel."
+          },
+          {
+            "kop": "Voorpret aan de stoel:",
+            "tekst": "In de ruimte is plek voor maximaal twee kinderen: het kind op de stoel en één kind dat mag toekijken. Dit moment van kijken bouwt de gezonde spanning en voorpret voor hun eigen transformatie prachtig op."
+          },
+          {
+            "kop": "Begeleiding vanuit de organisatie:",
+            "tekst": "Omdat ik mijn volledige aandacht bij het kind in de stoel wil houden, zorgt de gastvrouw of organisatie ervoor dat de kinderen rustig één voor één worden gebracht en gehaald."
+          },
+          {
+            "kop": "Kwaliteit boven kwantiteit:",
+            "tekst": "Om elk design en elk kind de waarde te geven die het verdient, help ik een maximum van 8 kinderen per 1,5 uur."
+          },
+          {
+            "kop": "Complimenten na afloop:",
+            "tekst": "Ik vind het onwijs leuk om reacties op mijn werk te horen! Bewaar ze gerust tot ik klaar ben. Tijdens het schilderen houd ik mijn aandacht graag volledig bij het kind in de stoel."
+          }
+        ]
       }
     ],
     "slot": [
-      "Zoek je een allround facepainter die op hoog tempo een grote groep kinderen achter elkaar schminkt midden in de feestdrukte? Dan past een collega in de branche waarschijnlijk beter bij je.",
-      "Kies je bewust voor rust, persoonlijke aandacht voor de kinderen en vakmanschap waar dagelijks aan wordt gewerkt? Dan breng ik die sfeer met alle liefde naar jouw feest."
+      "Zoek je een facepainter die op hoog tempo een grote groep kinderen schminkt midden in de feestdrukte, of wil je zelf bepalen wat er getekend wordt? Dan past een allround collega in de branche waarschijnlijk beter bij je, en verwijs ik je met alle liefde door.",
+      "Kies je bewust voor rust, persoonlijke aandacht en vakmanschap, en vertrouw je volledig op mijn stijl en visie? Dan creëer ik met veel liefde iets uitzonderlijks voor jouw feest."
     ]
   },
   "boeken": {

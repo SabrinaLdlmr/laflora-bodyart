@@ -119,16 +119,20 @@ export default function Home({ taal }: { taal: Taal }) {
       </Sectie>
 
       <Sectie id="past-het" titel={t.passend.titel}>
-        {t.passend.intro.map((alinea) => (
-          <p key={alinea.slice(0, 24)} className="passend__tekst">{alinea}</p>
+        <p className="passend__tekst">{t.passend.intro}</p>
+        {t.passend.onderdelen.map((onderdeel) => (
+          <div key={onderdeel.kop}>
+            <h3 className="passend__subkop">{onderdeel.kop}</h3>
+            <p className="passend__tekst">{onderdeel.tekst}</p>
+            <ul className="kenmerken passend__punten">
+              {onderdeel.punten.map((punt) => (
+                <li key={punt.kop}>
+                  <strong>{punt.kop}</strong> {punt.tekst}
+                </li>
+              ))}
+            </ul>
+          </div>
         ))}
-        <ul className="kenmerken passend__punten">
-          {t.passend.punten.map((punt) => (
-            <li key={punt.kop}>
-              <strong>{punt.kop}</strong> {punt.tekst}
-            </li>
-          ))}
-        </ul>
         {t.passend.slot.map((alinea) => (
           <p key={alinea.slice(0, 24)} className="passend__tekst">{alinea}</p>
         ))}
