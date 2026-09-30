@@ -1274,6 +1274,24 @@ img {
 }
 
 /* --------------------------------------------------------------------------
+   Past mijn werkwijze bij jouw feest
+   De punten gebruiken de lijst van .kenmerken, met een vetgedrukt begin.
+   -------------------------------------------------------------------------- */
+
+.passend__tekst {
+  color: var(--tekst-zacht);
+}
+
+.passend__punten {
+  margin-block: var(--ruimte-3);
+}
+
+.passend__punten strong {
+  color: var(--tekst);
+  font-weight: 600;
+}
+
+/* --------------------------------------------------------------------------
    Veelgestelde vragen
    Uitklapbaar met details en summary, dus zonder javascript.
    -------------------------------------------------------------------------- */

@@ -259,6 +259,39 @@
     ],
     "beeld": "/beelden/bloemen-op-de-schouder.jpg"
   },
+  "passend": {
+    "titel": "Is my way of working a good fit for your party?",
+    "intro": [
+      "When you book me, you are choosing a personal experience and a little fairytale magic. My speciality is detailed floral and line work, and I practise it every single day to keep refining my technique. I'm proud of where my work is today, and I keep practising because I love to grow and lift it to a higher level each time.",
+      "After 25 years of working with children, I bring more than just my brushes. I bring a natural calm and a real feel for the way children experience the world. To make sure every child gets that personal attention and care, I work with a set approach:"
+    ],
+    "punten": [
+      {
+        "kop": "Time to connect:",
+        "tekst": "I work best in a separate, quiet room. It gives me the focus I need for fine brushwork, and that is exactly what makes room for real, cosy, personal moments with each child in my chair."
+      },
+      {
+        "kop": "Excitement by the chair:",
+        "tekst": "There is room for two children at a time: the one in the chair and one who gets to watch. Those moments of watching build a lovely sense of anticipation for their own transformation."
+      },
+      {
+        "kop": "A helping hand from the host:",
+        "tekst": "So I can keep my full attention on the child in the chair, the host or organiser makes sure the children are calmly brought in and picked up, one at a time."
+      },
+      {
+        "kop": "Quality over quantity:",
+        "tekst": "To give every design and every child the care they deserve, I paint a maximum of 8 children per 1.5 hours."
+      },
+      {
+        "kop": "Compliments afterwards:",
+        "tekst": "I absolutely love hearing what you think of my work! Feel free to save it until I'm done. While I'm painting, I like to keep my attention fully on the child in the chair."
+      }
+    ],
+    "slot": [
+      "Looking for an all-round face painter who can paint a big group of children in quick succession, right in the middle of the party buzz? Then another face painter will probably suit you better.",
+      "Are you choosing calm, personal attention for the children and craftsmanship that grows every day? Then I would love to bring that feeling to your party."
+    ]
+  },
   "boeken": {
     "bovenkop": "Book",
     "titel": "Shall we pick a date",

@@ -118,6 +118,22 @@ export default function Home({ taal }: { taal: Taal }) {
         </div>
       </Sectie>
 
+      <Sectie id="past-het" titel={t.passend.titel}>
+        {t.passend.intro.map((alinea) => (
+          <p key={alinea.slice(0, 24)} className="passend__tekst">{alinea}</p>
+        ))}
+        <ul className="kenmerken passend__punten">
+          {t.passend.punten.map((punt) => (
+            <li key={punt.kop}>
+              <strong>{punt.kop}</strong> {punt.tekst}
+            </li>
+          ))}
+        </ul>
+        {t.passend.slot.map((alinea) => (
+          <p key={alinea.slice(0, 24)} className="passend__tekst">{alinea}</p>
+        ))}
+      </Sectie>
+
       <div className="sierlijn">
         <GoudenBloem groot={58} />
       </div>
