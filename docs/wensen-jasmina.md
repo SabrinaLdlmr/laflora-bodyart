@@ -25,19 +25,24 @@ sprookjessferen: maximaal acht kinderen in anderhalf uur.
       in de code (`components/Evenement.tsx`) voor een volgende workshop.
 - [x] **Festivalterrein** uit de over-tekst gehaald, festivalomleiding definitief.
 
-## Nog te bevestigen door Jasmina (gevraagd via WhatsApp, 22 november)
+## Bevestigd door Jasmina (WhatsApp, 22 november)
 
-- [ ] **Btw.** Op de site staat nu "excl. btw", zoals Jasmina het aanleverde. Voor
-      particulieren moeten prijzen inclusief btw. Btw-plichtig: 110 wordt 133,10 en
-      60 wordt 72,60. Kleineondernemersregeling: 110 en 60 zijn de eindprijs en
-      "excl. btw" gaat eraf.
-- [ ] **Bellypainting echt weg?** Aangenomen van wel.
-- [ ] **Reiskosten bij moeder-dochter.** Die is in het atelier, dus nu zonder
-      reiskosten op de site.
-- [ ] **Duur workshop bloemetjes maken.** Jasmina schreef "1,2 uur". Op de site staat
-      nu "ruim een uur".
-- [ ] **KvK-nummer in de footer.** Zolang het er niet is, staat er niets (geen
-      nepnummer meer).
+- [x] **Btw.** Alle prijzen zijn de eindprijs, alleen eventuele reiskosten komen erbij.
+      "excl. btw" is overal van de site gehaald.
+- [x] **Bellypainting blijft.** Teruggezet als dienst, met de oude tekst en het oude
+      beeld, vanaf 95 euro. De omleiding van /aanbod/bellypainting is eraf.
+- [x] **Reiskosten bij moeder-dochter.** Die is in het atelier, dus zonder reiskosten.
+- [x] **Duur workshop bloemetjes maken.** Anderhalf uur.
+- [x] **KvK-nummer in de footer.** KvK 68314752.
+- [x] **Gezicht en glitter, Handen en armen** blijven weg.
+- [x] **Rozen Glitterbar** blijft onderdeel van de feestjes. Los boeken voor feesten,
+      festivals en bruiloften komt pas later; "binnenkort" is veranderd in "in de
+      toekomst misschien".
+
+## Nog uitzoeken met Jasmina
+
+- [ ] **Basismodel factuur** in de stijl van de website (gevraagd op 3 oktober).
+- [ ] **Prijs bellypainting.** Staat op vanaf 95 euro, zoals eerder. Klopt dat nog?
 
 ## Klaarzetten voor livegang en het contactformulier
 

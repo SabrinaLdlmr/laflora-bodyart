@@ -52,7 +52,7 @@
   "aanbod": {
     "bovenkop": "Aanbod",
     "titel": "Wat ik maak",
-    "intro": "Kleine, magische feestjes in sprookjessferen, met maximaal acht kinderen in anderhalf uur. Een kinderfeestje van anderhalf uur kost 110 euro en mijn uurtarief begint bij 60 euro. Alle prijzen zijn exclusief btw, en bij jullie thuis komen de reiskosten met het ov erbij. Voor stuif-in feesten en grote, snelle klussen ben ik niet beschikbaar.",
+    "intro": "Kleine, magische feestjes in sprookjessferen, met maximaal acht kinderen in anderhalf uur. Een kinderfeestje van anderhalf uur kost 110 euro en mijn uurtarief begint bij 60 euro. Kom ik bij jullie thuis, dan komen daar alleen eventuele reiskosten met het ov bij. Voor stuif-in feesten en grote, snelle klussen ben ik niet beschikbaar.",
     "meer": "Lees verder",
     "items": [
       {
@@ -61,7 +61,7 @@
         "kort": "Een sfeervol feestje van anderhalf uur bij jullie thuis, voor maximaal acht kinderen. Ieder kind wordt een voor een geschilderd in de sprookjesstijl van La Flora.",
         "beeld": "/beelden/bloemen-op-het-gezicht.jpg",
         "duur": "anderhalf uur",
-        "vanaf": "110 euro, excl. btw en reiskosten met het ov",
+        "vanaf": "110 euro, excl. eventuele reiskosten met het ov",
         "voor": "Kleine meidenfeestjes, maximaal acht kinderen",
         "beschrijving": [
           "Een klein, sfeervol feestje bij jullie thuis, in magische sprookjessferen. In anderhalf uur schilder ik maximaal acht kinderen, een voor een, in de eigen stijl van La Flora: bloemen, lijnen en glitter, afgestemd op ieder kind.",
@@ -81,7 +81,7 @@
         "kort": "Een rustige, vertraagde schminkervaring van anderhalf uur bij jullie thuis, voor een tot drie kinderen. Met een koffertje om te ontdekken en alle tijd.",
         "beeld": "/beelden/penseel-op-de-arm.jpg",
         "duur": "anderhalf uur",
-        "vanaf": "110 euro, excl. btw en reiskosten met het ov",
+        "vanaf": "110 euro, excl. eventuele reiskosten met het ov",
         "voor": "Hooggevoelige kinderen, maximaal drie",
         "beschrijving": [
           "Voor kinderen die snel overweldigd raken op een druk feest en toch dolgraag magie willen ervaren op hun verjaardag. Ik kom naar jullie toe en maak van de eettafel een plek waar het even helemaal om haar draait.",
@@ -102,7 +102,7 @@
         "kort": "Anderhalf uur samen in mijn atelier, gericht op verbinding. Met moeder, oma, tante, grote zus of een andere bijzondere vrouw uit haar leven.",
         "beeld": "/beelden/bloemen-op-de-schouder.jpg",
         "duur": "anderhalf uur",
-        "vanaf": "110 euro, excl. btw",
+        "vanaf": "110 euro",
         "voor": "Een kind samen met een bijzondere vrouw uit haar leven",
         "beschrijving": [
           "Een bijzondere ervaring in mijn atelier, voor jullie twee samen. Met haar moeder, of met een oma, tante, grote zus of een andere vrouw die veel voor haar betekent.",
@@ -119,8 +119,8 @@
         "naam": "Workshop bloemetjes maken",
         "kort": "Een creatieve workshop voor maximaal zes deelnemers, vooral voor tieners. Eerst oefenen op een bord, daarna op elkaar of op je eigen arm.",
         "beeld": "/beelden/oefenbord-bloemen.jpg",
-        "duur": "ruim een uur",
-        "vanaf": "110 euro, excl. btw en reiskosten met het ov",
+        "duur": "anderhalf uur",
+        "vanaf": "110 euro, excl. eventuele reiskosten met het ov",
         "voor": "Vooral tieners, maximaal zes deelnemers",
         "beschrijving": [
           "Een creatieve workshop voor een klein groepje. Je leert een bloemetje schminken, eerst op een oefenbord en daarna op elkaar of op je eigen arm.",
@@ -135,12 +135,30 @@
         ]
       },
       {
+        "slug": "bellypainting",
+        "naam": "Bellypainting",
+        "kort": "Je zwangere buik als bloementuin, in ongeveer een uur geschilderd. Rustig, bij jou thuis, met foto's als herinnering.",
+        "beeld": "/beelden/bellypainting.jpg",
+        "duur": "60 tot 90 minuten",
+        "vanaf": "vanaf 95 euro, excl. eventuele reiskosten met het ov",
+        "voor": "Vanaf 30 weken zwanger",
+        "beschrijving": [
+          "We beginnen met een kop thee en een gesprek over wat je mooi vindt. Bloemen, ranken, sterren, of iets dat alleen voor jou betekenis heeft.",
+          "Daarna schilder ik rechtstreeks op je buik met huidvriendelijke verf. Je ligt of zit comfortabel, en je mag gerust in slaap vallen.",
+          "Tot slot maken we foto's, zodat je deze buik voor altijd hebt. De verf wast er onder de douche zo weer af."
+        ],
+        "praktisch": [
+          "Vanaf 30 weken zwanger",
+          "Draag iets waar verf op mag"
+        ]
+      },
+      {
         "slug": "rozen-glitterbar",
         "naam": "Rozen Glitterbar",
-        "kort": "Huidjuwelen, rozen en glitter. Nu onderdeel van mijn feestjes, en straks ook los te boeken voor grotere feesten.",
+        "kort": "Huidjuwelen, rozen en glitter. Nu onderdeel van mijn feestjes, en in de toekomst misschien ook los te boeken voor grotere feesten.",
         "beeld": "/beelden/bloem-op-de-hand.jpg",
         "duur": "in de tijd die overblijft op een feestje",
-        "vanaf": "binnenkort los te boeken",
+        "vanaf": "onderdeel van mijn feestjes",
         "voor": "Gasten op een meidenfeestje of verjaardag",
         "beschrijving": [
           "De Rozen Glitterbar is een tafel vol huidjuwelen, kleine rozen en glitter. Ik zet hem bijna altijd in om de tijd die overblijft creatief te vullen, bij een meidenfeestje of op de verjaardag van een hooggevoelig kind.",
@@ -148,7 +166,7 @@
         ],
         "praktisch": [
           "Onderdeel van het meidenfeestje en de bloemen experience",
-          "Binnenkort ook los te boeken"
+          "In de toekomst misschien ook los te boeken"
         ]
       }
     ]
@@ -207,7 +225,7 @@
       },
       {
         "vraag": "Wat kost het?",
-        "antwoord": "Een kinderfeestje van anderhalf uur kost 110 euro, en mijn uurtarief begint bij 60 euro. Alle prijzen zijn exclusief btw. Kom ik bij jullie thuis, dan komen de reiskosten met het ov erbij."
+        "antwoord": "Een kinderfeestje van anderhalf uur kost 110 euro, bellypainting begint bij 95 euro en mijn uurtarief begint bij 60 euro. Kom ik bij jullie thuis, dan komen daar alleen eventuele reiskosten met het ov bij."
       },
       {
         "vraag": "Kun je ook naar een groot feest of evenement komen?",
@@ -302,7 +320,7 @@
   "projecten": {
     "bovenkop": "Projecten",
     "titel": "Een eigen idee?",
-    "tekst": "Heb je een project in gedachten dat buiten mijn feestjes valt, zoals een fotoshoot of een creatieve samenwerking? Benader me gerust, dan kijken we samen wat er mogelijk is. Mijn tarief voor projecten begint bij 60 euro per uur, exclusief btw.",
+    "tekst": "Heb je een project in gedachten dat buiten mijn feestjes valt, zoals een fotoshoot of een creatieve samenwerking? Benader me gerust, dan kijken we samen wat er mogelijk is. Mijn tarief voor projecten begint bij 60 euro per uur.",
     "knop": "Vertel me over je project"
   },
   "boeken": {
@@ -345,7 +363,7 @@
   "footer": {
     "merk": "La Flora Body Art",
     "regel": "De magie die blijft, lang nadat de schmink verdwenen is",
-    "kvk": "",
+    "kvk": "KvK 68314752",
     "rechten": "Alle rechten voorbehouden"
   },
   "detail": {

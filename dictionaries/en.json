@@ -52,7 +52,7 @@
   "aanbod": {
     "bovenkop": "Work",
     "titel": "What I make",
-    "intro": "Small, magical parties in a fairytale setting, with up to eight children in an hour and a half. A children's party of an hour and a half costs 110 euro and my hourly rate starts at 60 euro. All prices exclude VAT, and at your home public transport travel costs are added. I am not available for drop-in parties or large, fast jobs.",
+    "intro": "Small, magical parties in a fairytale setting, with up to eight children in an hour and a half. A children's party of an hour and a half costs 110 euro and my hourly rate starts at 60 euro. If I come to your home, only possible public transport travel costs are added. I am not available for drop-in parties or large, fast jobs.",
     "meer": "Read more",
     "items": [
       {
@@ -61,7 +61,7 @@
         "kort": "An atmospheric party of an hour and a half at your home, for up to eight children. Each child is painted one by one in La Flora's fairytale style.",
         "beeld": "/beelden/bloemen-op-het-gezicht.jpg",
         "duur": "an hour and a half",
-        "vanaf": "110 euro, excl. VAT and public transport travel costs",
+        "vanaf": "110 euro, excl. possible public transport travel costs",
         "voor": "Small girls' parties, up to eight children",
         "beschrijving": [
           "A small, atmospheric party at your home, in a magical fairytale setting. In an hour and a half I paint up to eight children, one by one, in La Flora's own style: flowers, lines and glitter, tuned to each child.",
@@ -81,7 +81,7 @@
         "kort": "A calm, slowed-down face painting experience of an hour and a half at your home, for one to three children. With a little case to explore and all the time in the world.",
         "beeld": "/beelden/penseel-op-de-arm.jpg",
         "duur": "an hour and a half",
-        "vanaf": "110 euro, excl. VAT and public transport travel costs",
+        "vanaf": "110 euro, excl. possible public transport travel costs",
         "voor": "Highly sensitive children, up to three",
         "beschrijving": [
           "For children who are quickly overwhelmed at a busy party and still long to feel magic on their birthday. I come to you and turn the kitchen table into a place where everything revolves around her.",
@@ -102,7 +102,7 @@
         "kort": "An hour and a half together in my studio, all about connection. With her mother, grandmother, aunt, big sister or another special woman in her life.",
         "beeld": "/beelden/bloemen-op-de-schouder.jpg",
         "duur": "an hour and a half",
-        "vanaf": "110 euro, excl. VAT",
+        "vanaf": "110 euro",
         "voor": "A child together with a special woman in her life",
         "beschrijving": [
           "A special experience in my studio, for the two of you together. With her mother, or with a grandmother, aunt, big sister or another woman who means a lot to her.",
@@ -119,8 +119,8 @@
         "naam": "Flower painting workshop",
         "kort": "A creative workshop for up to six participants, especially for teenagers. First practising on a board, then on each other or on your own arm.",
         "beeld": "/beelden/oefenbord-bloemen.jpg",
-        "duur": "just over an hour",
-        "vanaf": "110 euro, excl. VAT and public transport travel costs",
+        "duur": "an hour and a half",
+        "vanaf": "110 euro, excl. possible public transport travel costs",
         "voor": "Especially teenagers, up to six participants",
         "beschrijving": [
           "A creative workshop for a small group. You learn to paint a little flower, first on a practice board and then on each other or on your own arm.",
@@ -135,12 +135,30 @@
         ]
       },
       {
+        "slug": "bellypainting",
+        "naam": "Belly painting",
+        "kort": "Your pregnant belly as a flower garden, painted in about an hour. Calm, at your home, with photos to remember it by.",
+        "beeld": "/beelden/bellypainting.jpg",
+        "duur": "60 to 90 minutes",
+        "vanaf": "from 95 euro, excl. possible public transport travel costs",
+        "voor": "From 30 weeks pregnant",
+        "beschrijving": [
+          "We start with a cup of tea and a conversation about what you love. Flowers, vines, stars, or something that only means something to you.",
+          "Then I paint straight onto your belly with skin friendly paint. You lie or sit comfortably, and you are welcome to fall asleep.",
+          "We finish with photos, so you keep this belly forever. The paint rinses off in the shower."
+        ],
+        "praktisch": [
+          "From 30 weeks pregnant",
+          "Wear something paint is welcome on"
+        ]
+      },
+      {
         "slug": "rozen-glitterbar",
         "naam": "Rose Glitter Bar",
-        "kort": "Skin jewels, roses and glitter. Part of my parties now, and soon also bookable on its own for larger parties.",
+        "kort": "Skin jewels, roses and glitter. Part of my parties now, and in the future perhaps also bookable on its own for larger parties.",
         "beeld": "/beelden/bloem-op-de-hand.jpg",
         "duur": "in the time left over at a party",
-        "vanaf": "soon bookable on its own",
+        "vanaf": "part of my parties",
         "voor": "Guests at a girls' party or birthday",
         "beschrijving": [
           "The Rose Glitter Bar is a table full of skin jewels, little roses and glitter. I almost always use it to fill the remaining time creatively, at a girls' party or at the birthday of a highly sensitive child.",
@@ -148,7 +166,7 @@
         ],
         "praktisch": [
           "Part of the girls' party and the flower experience",
-          "Soon also bookable on its own"
+          "In the future perhaps also bookable on its own"
         ]
       }
     ]
@@ -207,7 +225,7 @@
       },
       {
         "vraag": "What does it cost?",
-        "antwoord": "A children's party of an hour and a half costs 110 euro, and my hourly rate starts at 60 euro. All prices exclude VAT. If I come to your home, public transport travel costs are added."
+        "antwoord": "A children's party of an hour and a half costs 110 euro, belly painting starts at 95 euro and my hourly rate starts at 60 euro. If I come to your home, only possible public transport travel costs are added."
       },
       {
         "vraag": "Can you come to a large party or event?",
@@ -302,7 +320,7 @@
   "projecten": {
     "bovenkop": "Projects",
     "titel": "An idea of your own?",
-    "tekst": "Do you have a project in mind that falls outside my parties, such as a photo shoot or a creative collaboration? Feel free to get in touch and we will look together at what is possible. My rate for projects starts at 60 euro per hour, excluding VAT.",
+    "tekst": "Do you have a project in mind that falls outside my parties, such as a photo shoot or a creative collaboration? Feel free to get in touch and we will look together at what is possible. My rate for projects starts at 60 euro per hour.",
     "knop": "Tell me about your project"
   },
   "boeken": {
@@ -345,7 +363,7 @@
   "footer": {
     "merk": "La Flora Body Art",
     "regel": "The magic that stays, long after the paint is gone",
-    "kvk": "",
+    "kvk": "KvK 68314752",
     "rechten": "All rights reserved"
   },
   "detail": {

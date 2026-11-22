@@ -11,7 +11,6 @@
 const omleidingen = [
   // Vervallen: alles draait nu om kleine, magische feestjes
   ["/aanbod/festivals", "/#aanbod"],
-  ["/aanbod/bellypainting", "/#aanbod"],
   ["/aanbod/gezicht-en-glitter", "/#aanbod"],
   ["/aanbod/handen-en-armen", "/#aanbod"],
   // Nieuwe naam
