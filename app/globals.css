@@ -143,6 +143,24 @@ h3 {
   line-height: 1.08;
   letter-spacing: 0.005em;
   margin: 0;
+  /* Koppen verdelen hun woorden evenwichtig over de regels, zonder afbreekstreepjes. */
+  text-wrap: balance;
+}
+
+/*
+ * Geen automatische afbreekstreepjes in de hele site. Woorden blijven heel en
+ * schuiven als geheel naar de volgende regel. Alleen een woord dat echt niet
+ * past op een smal scherm mag zonder streepje doorlopen (break-word).
+ */
+body {
+  hyphens: manual;
+  overflow-wrap: break-word;
+}
+
+p,
+li {
+  /* Voorkomt een los woordje op de laatste regel van een alinea. */
+  text-wrap: pretty;
 }
 
 p {
@@ -372,7 +390,6 @@ img {
 .sectie__titel {
   font-size: var(--titel-m);
   padding-bottom: 0.1em;
-  overflow-wrap: anywhere;
   background: var(--slinger);
   background-size: 200% 100%;
   -webkit-background-clip: text;
@@ -449,8 +466,6 @@ img {
 
 .kaart__naam {
   font-size: clamp(1.25rem, 1.05rem + 0.7vw, 1.6rem);
-  overflow-wrap: anywhere;
-  hyphens: auto;
   padding-bottom: 0.12em;
 }
 
