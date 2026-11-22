@@ -1,7 +1,6 @@
 import Link from "next/link";
 import AanbodKaart from "./AanbodKaart";
 import Contactformulier from "./Contactformulier";
-import Evenement from "./Evenement";
 import Glitters from "./Glitters";
 import Film from "./Film";
 import Spiegel from "./Spiegel";
@@ -42,8 +41,6 @@ export default function Home({ taal }: { taal: Taal }) {
       <div className="sierlijn">
         <GoudenBloem groot={58} />
       </div>
-
-      <Evenement taal={taal} />
 
       <Sectie id="aanbod" bovenkop={t.aanbod.bovenkop} titel={t.aanbod.titel} intro={t.aanbod.intro}>
         <ul className="aanbod">
@@ -136,6 +133,13 @@ export default function Home({ taal }: { taal: Taal }) {
         {t.passend.slot.map((alinea) => (
           <p key={alinea.slice(0, 24)} className="passend__tekst">{alinea}</p>
         ))}
+      </Sectie>
+
+      <Sectie id="projecten" bovenkop={t.projecten.bovenkop} titel={t.projecten.titel}>
+        <p className="passend__tekst">{t.projecten.tekst}</p>
+        <Link href={pad(taal, "/#boeken")} className="knop knop--leeg">
+          {t.projecten.knop}
+        </Link>
       </Sectie>
 
       <div className="sierlijn">

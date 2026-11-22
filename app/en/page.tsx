@@ -2,13 +2,20 @@ import type { Metadata } from "next";
 import Nav from "@/components/Nav";
 import Home from "@/components/Home";
 import Footer from "@/components/Footer";
-import { getDictionary } from "@/lib/dictionaries";
+import { DEELBEELD, getDictionary } from "@/lib/dictionaries";
 
 const t = getDictionary("en");
 
 export const metadata: Metadata = {
   title: t.meta.titel,
   description: t.meta.beschrijving,
+  openGraph: {
+    title: t.meta.titel,
+    description: t.meta.beschrijving,
+    type: "website",
+    locale: "en_GB",
+    images: [{ url: DEELBEELD, alt: t.meta.titel }],
+  },
 };
 
 export default function Page() {

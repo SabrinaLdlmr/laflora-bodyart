@@ -1,6 +1,6 @@
 # La Flora Body Art
 
-Website voor **hallo.laflorabodyart.nl**. Next.js 14 met App Router en TypeScript.
+Website voor **laflorabodyart.nl**. Next.js 14 met App Router en TypeScript.
 
 ## Snel starten
 
@@ -72,7 +72,7 @@ git push -u origin main
 Daarna in Vercel: **Add New → Project → importeer de repo**. Next.js wordt automatisch
 herkend, je hoeft niets in te stellen.
 
-Domein koppelen: in Vercel bij **Settings → Domains** `hallo.laflorabodyart.nl` toevoegen.
+Domein koppelen: in Vercel bij **Settings → Domains** `laflorabodyart.nl` toevoegen.
 Vercel geeft je een CNAME-regel. Die zet je bij je hostingpartij in het DNS van
 `laflorabodyart.nl`:
 

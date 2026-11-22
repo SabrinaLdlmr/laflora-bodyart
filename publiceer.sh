@@ -31,7 +31,7 @@ git push -u origin "$BRANCH"
 echo ""
 if [[ "$BRANCH" == "main" ]]; then
   echo "Klaar. Vercel bouwt nu de nieuwe versie."
-  echo "Over een minuut of twee staat het live op https://hallo.laflorabodyart.nl"
+  echo "Over een minuut of twee staat het live op https://laflora-bodyart.vercel.app"
 else
   echo "Klaar. De branch $BRANCH staat nu op GitHub."
   echo "Vercel maakt hiervan een voorbeeldversie."

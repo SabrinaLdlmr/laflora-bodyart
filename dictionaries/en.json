@@ -1,11 +1,10 @@
 {
   "meta": {
     "titel": "La Flora Body Art",
-    "beschrijving": "The magic that stays, long after the paint is gone. Calm flower sessions at home for mothers and daughters, small girls' parties and highly sensitive children."
+    "beschrijving": "Magical parties in a fairytale setting. Small girls' parties at home, a flower experience for highly sensitive children and mother and daughter moments in the studio."
   },
   "nav": {
     "merk": "La Flora",
-    "evenement": "Workshop",
     "aanbod": "Work",
     "werkwijze": "How it works",
     "vragen": "Questions",
@@ -15,11 +14,11 @@
     "taalHref": "/"
   },
   "hero": {
-    "bovenkop": "",
+    "bovenkop": "Magical fairytale settings",
     "naam": "La Flora",
     "ondertitel": "The magic that stays, long after the paint is gone",
-    "tekst": "I let children experience themselves as magic. Small, calm and with all the time in the world: a mother and daughter together, a handful of friends at a birthday, or a child who feels a lot and for that very reason sits still the longest.",
-    "knopPrimair": "Book a session",
+    "tekst": "I let children experience themselves as magic, at small parties with a fairytale atmosphere. Calm and with all the time in the world: a handful of friends at a birthday, a mother and daughter together, or a child who feels a lot and for that very reason sits still the longest.",
+    "knopPrimair": "Book a party",
     "knopSecundair": "See the work"
   },
   "evenement": {
@@ -53,124 +52,103 @@
   "aanbod": {
     "bovenkop": "Work",
     "titel": "What I make",
-    "intro": "Every session holds a moment where someone truly sees herself. I work with small groups, in a calm place, usually at your home. Choose what suits your moment.",
+    "intro": "Small, magical parties in a fairytale setting, with up to eight children in an hour and a half. A children's party of an hour and a half costs 110 euro and my hourly rate starts at 60 euro. All prices exclude VAT, and at your home public transport travel costs are added. I am not available for drop-in parties or large, fast jobs.",
     "meer": "Read more",
     "items": [
       {
-        "slug": "moeder-dochter-experience",
-        "naam": "Mother daughter experience",
-        "kort": "Side by side at the mirror, both painted, and photos to keep. An afternoon that revolves around just the two of you.",
-        "beeld": "/beelden/bloemen-op-de-schouder.jpg",
-        "duur": "90 minutes",
-        "vanaf": "125 euro together",
-        "voor": "From around five years old",
+        "slug": "meidenfeestje",
+        "naam": "Magical girls' party",
+        "kort": "An atmospheric party of an hour and a half at your home, for up to eight children. Each child is painted one by one in La Flora's fairytale style.",
+        "beeld": "/beelden/bloemen-op-het-gezicht.jpg",
+        "duur": "an hour and a half",
+        "vanaf": "110 euro, excl. VAT and public transport travel costs",
+        "voor": "Small girls' parties, up to eight children",
         "beschrijving": [
-          "You arrive together and sit down next to each other. She chooses first, then you, and then I paint you both.",
-          "It is about the mirror. About the moment she sees herself and goes completely quiet, and about you sitting beside her with flowers on your own shoulder.",
-          "We finish with photos. You receive those a few days later.",
-          "There is all the time in the world. For children who feel a lot that means looking first, touching next, and painting only when she is ready."
+          "A small, atmospheric party at your home, in a magical fairytale setting. In an hour and a half I paint up to eight children, one by one, in La Flora's own style: flowers, lines and glitter, tuned to each child.",
+          "I work in a separate, quiet room. The child in the chair and one child who may watch, while the others are calmly brought and collected. That way each child gets my full attention and a moment of her own at the mirror.",
+          "If there is time left, the Rose Glitter Bar opens: skin jewels and glitter that make the party complete."
         ],
         "praktisch": [
-          "At your home or in my studio",
-          "Photos arrive a few days later"
+          "Up to eight children in an hour and a half",
+          "A separate, quiet room and someone who brings and collects the children one by one",
+          "This party comes with my fixed way of working, which you can read on the homepage under Does my way of working suit your party?",
+          "I come for small parties. I am not available for drop-in parties or large, fast jobs"
         ]
       },
       {
-        "slug": "magische-bloemenbeleving",
-        "naam": "Magical flower experience",
-        "kort": "Ninety minutes at your home, for one to three children, with a paint case and a lit mirror. Perfect for a small birthday party.",
-        "beeld": "/beelden/bloemen-op-het-gezicht.jpg",
+        "slug": "bloemen-experience",
+        "naam": "Flower experience for highly sensitive children",
+        "kort": "A calm, slowed-down face painting experience of an hour and a half at your home, for one to three children. With a little case to explore and all the time in the world.",
+        "beeld": "/beelden/penseel-op-de-arm.jpg",
         "duur": "an hour and a half",
-        "vanaf": "110 euro per session",
-        "voor": "Sensitive children, around four to seven",
+        "vanaf": "110 euro, excl. VAT and public transport travel costs",
+        "voor": "Highly sensitive children, up to three",
         "beschrijving": [
           "For children who are quickly overwhelmed at a busy party and still long to feel magic on their birthday. I come to you and turn the kitchen table into a place where everything revolves around her.",
-          "We begin with a small ritual. The children open the paint case together and discover the colours, the glitter and the examples. We lay everything out calmly and there is all the time in the world to look, to touch and to tell me what they love.",
-          "Then I paint them one by one. Elegant flowers, soft colours, fine glitter, tuned to each child. In a lit mirror she follows how her face comes to life step by step.",
-          "The experience is deliberately slow. It is exactly in that calm that wonder appears, and a memory that lasts for years. I work from experience rather than entertainment."
+          "We start by getting to know each other. I bring a small case that the children may open and explore themselves. They can tell me what they find beautiful and what they have experienced with face paint before.",
+          "Then I paint them one by one while the others watch. Calm, quiet and time are at the heart of it. A scent and taste moment with orange makes the experience even richer, a memory you can smell.",
+          "If there is time left, I bring out the Rose Glitter Bar, for example for the guests who come to the birthday."
         ],
         "praktisch": [
           "An hour and a half at your home, in a familiar and safe setting",
           "For one to three children, so each child gets my full attention",
-          "Includes preparation, materials, the creative experience and a moment of rest",
           "At the kitchen table in a tidy room. The quieter the room, the deeper the children go into it",
-          "During the experience all my attention is with the children. Afterwards I love to hear your reactions and questions",
-          "Head outside together afterwards, to the playground or the library. The warm reactions they get there make the feeling even bigger"
+          "During the experience all my attention is with the children. Afterwards I love to hear your reactions and questions"
         ]
       },
       {
-        "slug": "workshop-voor-tieners",
-        "naam": "Workshop for teens",
-        "kort": "A small group of girls learns to paint on skin. Everyone goes home with a flower on a friend's arm. On request, from four to six participants.",
-        "beeld": "/beelden/bloem-op-de-hand.jpg",
-        "duur": "an afternoon, by arrangement",
-        "vanaf": "on request",
-        "voor": "A group of four to six girls",
+        "slug": "moeder-dochter-experience",
+        "naam": "Mother and daughter experience",
+        "kort": "An hour and a half together in my studio, all about connection. With her mother, grandmother, aunt, big sister or another special woman in her life.",
+        "beeld": "/beelden/bloemen-op-de-schouder.jpg",
+        "duur": "an hour and a half",
+        "vanaf": "110 euro, excl. VAT",
+        "voor": "A child together with a special woman in her life",
         "beschrijving": [
-          "A small group of girls, a table full of colour, and an afternoon to learn it yourself. I show you how paint behaves on skin, how to let a line grow and where to place glitter and gems so the light finds them.",
-          "They practise on a board first, then on each other. Everyone goes home with a flower on a friend's arm, and with the feeling that she made it herself.",
-          "All materials are ready for you. Come with empty hands and zero experience, just a willingness to get them dirty."
+          "A special experience in my studio, for the two of you together. With her mother, or with a grandmother, aunt, big sister or another woman who means a lot to her.",
+          "Depending on her age I give a small workshop in which you make flowers together. For young children there is a fitting alternative, such as a colouring page.",
+          "In a separate room stands the magic mirror. There is all the space there to look, experience and connect together."
         ],
         "praktisch": [
-          "For a group of four to six girls",
-          "At your home or another calm place",
+          "An hour and a half in my studio",
+          "Together with a mother, grandmother, aunt, big sister or another special woman"
+        ]
+      },
+      {
+        "slug": "workshop-bloemetjes-maken",
+        "naam": "Flower painting workshop",
+        "kort": "A creative workshop for up to six participants, especially for teenagers. First practising on a board, then on each other or on your own arm.",
+        "beeld": "/beelden/oefenbord-bloemen.jpg",
+        "duur": "just over an hour",
+        "vanaf": "110 euro, excl. VAT and public transport travel costs",
+        "voor": "Especially teenagers, up to six participants",
+        "beschrijving": [
+          "A creative workshop for a small group. You learn to paint a little flower, first on a practice board and then on each other or on your own arm.",
+          "I also teach you a few simple skin jewels, so you could sell them yourself on King's Day, for example.",
+          "If the workshop is part of a birthday or another celebration, we can extend it with extra flowers.",
+          "All materials are ready. You can come empty-handed and with zero experience."
+        ],
+        "praktisch": [
+          "Up to six participants",
           "All materials are ready, no experience needed",
-          "On request. We agree on the length and the price together"
+          "Can be extended with extra flowers for a birthday or celebration"
         ]
       },
       {
-        "slug": "bellypainting",
-        "naam": "Belly painting",
-        "kort": "Your pregnant belly as a flower garden, painted in about an hour. Calm, at your home, with photos to remember it by.",
-        "beeld": "/beelden/bellypainting.jpg",
-        "duur": "60 to 90 minutes",
-        "vanaf": "from 95 euro",
-        "voor": "From 30 weeks pregnant",
+        "slug": "rozen-glitterbar",
+        "naam": "Rose Glitter Bar",
+        "kort": "Skin jewels, roses and glitter. Part of my parties now, and soon also bookable on its own for larger parties.",
+        "beeld": "/beelden/bloem-op-de-hand.jpg",
+        "duur": "in the time left over at a party",
+        "vanaf": "soon bookable on its own",
+        "voor": "Guests at a girls' party or birthday",
         "beschrijving": [
-          "We start with a cup of tea and a conversation about what you love. Flowers, vines, stars, or something that only means something to you.",
-          "Then I paint straight onto your belly with skin friendly paint. You lie or sit comfortably, and you are welcome to fall asleep.",
-          "We finish with photos, so you keep this belly forever. The paint rinses off in the shower."
+          "The Rose Glitter Bar is a table full of skin jewels, little roses and glitter. I almost always use it to fill the remaining time creatively, at a girls' party or at the birthday of a highly sensitive child.",
+          "In the future you will be able to book the Rose Glitter Bar as a separate service for larger parties. For now it is part of my parties and cannot yet be booked separately."
         ],
         "praktisch": [
-          "From 30 weeks pregnant",
-          "Wear something paint is welcome on"
-        ]
-      },
-      {
-        "slug": "gezicht-en-glitter",
-        "naam": "Faces and glitter",
-        "kort": "Flowers around the eye, gold on the cheek, gems where the light falls.",
-        "beeld": "/beelden/bloemen-op-het-gezicht.jpg",
-        "duur": "from 2 hours on location",
-        "vanaf": "from 150 euro",
-        "voor": "Parties, weddings and children's birthdays",
-        "beschrijving": [
-          "No tigers and spiders, but flowers growing around the eye, with glitter and small gems set into them.",
-          "Each face takes five to ten minutes, so a good queue moves through in two hours.",
-          "Suitable from around three years old. All materials are skin friendly and cosmetically approved.",
-          "I work at eye level and say what I am doing. Children who find it exciting can watch from their mother's lap first."
-        ],
-        "praktisch": [
-          "Five to ten minutes per face",
-          "All materials are cosmetically approved"
-        ]
-      },
-      {
-        "slug": "handen-en-armen",
-        "naam": "Flowers on hands and arms",
-        "kort": "White lines, fine curls and dots that grow around the wrist.",
-        "beeld": "/beelden/penseel-op-de-arm.jpg",
-        "duur": "10 to 30 minutes per person",
-        "vanaf": "from 45 euro",
-        "voor": "Hands, wrists, arms and shoulders",
-        "beschrijving": [
-          "A flower on the back of the hand, with white dots running towards the fingers like a little chain. Small work, made to be studied up close.",
-          "I draw in white lines with a fine brush, with turquoise and pink underneath as a background and gold running through it.",
-          "Lovely for anyone who would rather show their hands than their face, and a beautiful addition to a painted face."
-        ],
-        "praktisch": [
-          "Stays put until you wash it off",
-          "Comfortable for children who prefer to keep their face free"
+          "Part of the girls' party and the flower experience",
+          "Soon also bookable on its own"
         ]
       }
     ]
@@ -184,8 +162,8 @@
         "tekst": "Tell me about the day, the place and who it is for. I work with small groups in a calm place; together we look at whether that fits. I let you know within two days whether I am free."
       },
       {
-        "titel": "We choose together",
-        "tekst": "Colours, flowers, an animal, a hero. She chooses, and I let it grow from the very first line."
+        "titel": "We attune",
+        "tekst": "You tell me about the day, about the child and about what she loves. The design arises in the moment, in my own style, and grows from the very first line."
       },
       {
         "titel": "The mirror opens",
@@ -205,7 +183,7 @@
       "Your child feels a lot, and you want someone who asks before she touches.",
       "You are looking for a moment that revolves entirely around her, not around the clock.",
       "You find calm and attention more important than speed and numbers.",
-      "You want photos you will still look at years from now."
+      "You deliberately choose a small party rather than a big event."
     ]
   },
   "vragen": {
@@ -225,19 +203,27 @@
       },
       {
         "vraag": "From what age?",
-        "antwoord": "From around four years old, and there is no upper limit. Mothers, teenagers and pregnant bellies are just as welcome as little girls."
+        "antwoord": "From around four years old. The flower painting workshop is especially for teenagers, and at the mother and daughter experience an adult joins in."
+      },
+      {
+        "vraag": "What does it cost?",
+        "antwoord": "A children's party of an hour and a half costs 110 euro, and my hourly rate starts at 60 euro. All prices exclude VAT. If I come to your home, public transport travel costs are added."
+      },
+      {
+        "vraag": "Can you come to a large party or event?",
+        "antwoord": "I only work at small parties, with up to eight children in an hour and a half. I am not available for drop-in parties, events or large groups. An all-round face painter will suit you better for those."
       },
       {
         "vraag": "How many children at once?",
-        "antwoord": "One to three for a flower experience, four to six for a teen workshop. That way everyone has all the time in the world at the mirror."
+        "antwoord": "Up to eight at a girls' party, one to three at the flower experience and up to six at the workshop. Always in an hour and a half or less, so every child has all the time in the world at the mirror."
       },
       {
         "vraag": "Where does it take place?",
-        "antwoord": "At your home, or in a calm place we choose together. I bring everything: paint, glitter, a mirror and light."
+        "antwoord": "At your home. The mother and daughter experience takes place in my studio. I bring everything: paint, glitter, a mirror and light."
       },
       {
         "vraag": "How long does it stay on?",
-        "antwoord": "A day, sometimes two. With water and soap it comes right off. The photos stay."
+        "antwoord": "A day, sometimes two. With water and soap it comes right off. The memory stays."
       },
       {
         "vraag": "Is the paint safe?",
@@ -255,7 +241,7 @@
     "tekst": [
       "I am Jasmina, an artist with a love for flowers, lines and glitter. I paint slowly. First you feel the brush on your hand, only then on your face. I say what I am about to do before I do it, and we stop the moment you want to. That is why I work small, so that I can really see every child.",
       "For children who feel a lot, that makes all the difference. All the time in the world, gentle hands, and someone who asks before she touches. Parents of highly sensitive children know how rare that is, and those children often sit still the longest.",
-      "I work from experience. My work is built with care, driven by a love of detail and feeling. What I bring is paint, glitter, a mirror and the calm to really take my time. At your home, at your venue or on the festival grounds."
+      "I work from experience. My work is built with care, driven by a love of detail and feeling. What I bring is paint, glitter, a mirror and the calm to really take my time. At your home or in my studio."
     ],
     "beeld": "/beelden/bloemen-op-de-schouder.jpg"
   },
@@ -309,9 +295,15 @@
       }
     ],
     "slot": [
-      "Looking for a face painter who can paint a big group of children at speed in the middle of the party buzz, or would you rather decide for yourself what gets painted? Then an all-round fellow face painter will probably suit you better, and I will happily point you in the right direction.",
+      "I am not available for drop-in parties, events or large, fast jobs. I am not an all-round face painter who paints a big group of children at speed in the middle of the party buzz. Is that what you are looking for, or would you rather decide for yourself what gets painted? Then an all-round fellow face painter will suit you better, and I will happily point you in the right direction.",
       "Are you choosing calm, personal attention and craftsmanship, and do you fully trust my style and vision? Then I would love to create something truly exceptional for your party."
     ]
+  },
+  "projecten": {
+    "bovenkop": "Projects",
+    "titel": "An idea of your own?",
+    "tekst": "Do you have a project in mind that falls outside my parties, such as a photo shoot or a creative collaboration? Feel free to get in touch and we will look together at what is possible. My rate for projects starts at 60 euro per hour, excluding VAT.",
+    "knop": "Tell me about your project"
   },
   "boeken": {
     "bovenkop": "Book",
@@ -353,7 +345,7 @@
   "footer": {
     "merk": "La Flora Body Art",
     "regel": "The magic that stays, long after the paint is gone",
-    "kvk": "KvK 00000000",
+    "kvk": "",
     "rechten": "All rights reserved"
   },
   "detail": {

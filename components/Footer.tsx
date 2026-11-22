@@ -11,7 +11,8 @@ export default function Footer({ taal }: { taal: Taal }) {
           {t.footer.merk}. {t.footer.regel}.
         </p>
         <p style={{ margin: 0 }}>
-          <a href={`mailto:${t.boeken.email}`}>{t.boeken.email}</a> · {t.footer.kvk} ·{" "}
+          <a href={`mailto:${t.boeken.email}`}>{t.boeken.email}</a> ·{" "}
+          {t.footer.kvk && <>{t.footer.kvk} · </>}
           {new Date().getFullYear()} {t.footer.rechten}
         </p>
       </div>

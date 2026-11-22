@@ -14,7 +14,17 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const item = vindAanbodItem(TAAL, params.slug);
   if (!item) return {};
-  return { title: item.naam, description: item.kort };
+  return {
+    title: item.naam,
+    description: item.kort,
+    openGraph: {
+      title: item.naam,
+      description: item.kort,
+      type: "website",
+      locale: "en_GB",
+      images: [{ url: item.beeld, alt: item.naam }],
+    },
+  };
 }
 
 export default function Pagina({ params }: { params: { slug: string } }) {

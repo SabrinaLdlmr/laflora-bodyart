@@ -140,7 +140,7 @@ export async function POST(request: Request) {
     "",
     bericht,
     "",
-    "Verstuurd via het contactformulier op hallo.laflorabodyart.nl",
+    "Verstuurd via het contactformulier op de website van La Flora",
   ].join("\n");
 
   // Zonder sleutel versturen we niets, maar loopt het formulier wel door.

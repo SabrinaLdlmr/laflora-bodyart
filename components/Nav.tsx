@@ -11,7 +11,6 @@ export default function Nav({ taal }: { taal: Taal }) {
           {t.nav.merk}
         </Link>
         <nav className="nav__links" aria-label={t.nav.merk}>
-          <Link href={pad(taal, "/#workshop")}>{t.nav.evenement}</Link>
           <Link href={pad(taal, "/#aanbod")}>{t.nav.aanbod}</Link>
           <Link href={pad(taal, "/#werkwijze")}>{t.nav.werkwijze}</Link>
           <Link href={pad(taal, "/#vragen")}>{t.nav.vragen}</Link>

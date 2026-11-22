@@ -5,7 +5,8 @@ Afspraken voor het werken aan dit project.
 ## Het project
 
 La Flora Body Art is een website gebouwd met Next.js 14 (App Router, TypeScript, React 18).
-De site staat live op https://hallo.laflorabodyart.nl en wordt gehost op Vercel.
+De site staat live op https://laflora-bodyart.vercel.app en wordt gehost op Vercel.
+Straks komt hij op https://laflorabodyart.nl, zodra het domein bij Vimexx is gekoppeld.
 De code staat op GitHub: https://github.com/SabrinaLdlmr/laflora-bodyart
 
 ## Werkafspraken
@@ -29,6 +30,16 @@ documentatie zijn in het Nederlands.
 **Geen em-dashes in teksten.** Gebruik in alle zichtbare teksten op de site, in
 documentatie en in commitberichten een gewone komma, een dubbele punt of een korte zin
 in plaats van een em-dash.
+
+**Elke pagina heeft een deelafbeelding (og:image).** De standaardafbeelding staat in
+`lib/dictionaries.ts` als `DEELBEELD`. De detailpagina's van het aanbod gebruiken het
+beeld van dat aanbod. Komt er een nieuwe pagina bij, geef die dan ook `openGraph` met
+`images` mee. `metadataBase` in `app/layout.tsx` volgt vanzelf het productiedomein.
+
+**Positionering.** La Flora doet kleine, magische feestjes in sprookjessferen: maximaal
+acht kinderen in anderhalf uur. Het moet duidelijk blijven dat Jasmina niet beschikbaar
+is voor stuif-in feesten en grote, snelle klussen. Schrijf geen teksten die tempo,
+aantallen of een rij kinderen beloven.
 
 ## Meertaligheid
 
@@ -62,8 +73,8 @@ bijbehorende DNS-regels. Zolang dat niet klaar is, komt er geen mail aan.
 `./publiceer.sh "korte omschrijving"`. Zonder bericht gebruikt het script de datum en
 tijd. Het doet `git add -A`, een commit en een push naar de huidige branch, en stopt
 als er niets gewijzigd is. Er wordt niets gebouwd of getypecheckt, dat doet Vercel na
-de push. Staat je op `main`, dan weigert het script te pushen en wijst het je erop dat
-live gaan via een merge naar `main` loopt.
+de push. Sta je op `main`, dan waarschuwt het script dat de wijziging rechtstreeks
+live gaat, en pusht het daarna gewoon.
 
 **`vernieuw-laflora.sh`** is bedoeld voor een nieuwe versie die als zip uit de chat komt.
 Het zoekt de nieuwste `laflora-bodyart*.zip` in de map Downloads, pakt die uit in een

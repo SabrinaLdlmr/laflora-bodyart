@@ -3,6 +3,9 @@ import en from "@/dictionaries/en.json";
 
 export type Taal = "nl" | "en";
 
+/** De afbeelding die verschijnt als iemand een pagina deelt (og:image). */
+export const DEELBEELD = "/beelden/bloemen-op-het-gezicht.jpg";
+
 /** De structuur van nl.json is de waarheid. en.json moet daaraan voldoen. */
 export type Woordenboek = typeof nl;
 export type AanbodItem = Woordenboek["aanbod"]["items"][number];
