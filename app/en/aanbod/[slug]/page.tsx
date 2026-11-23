@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import AanbodDetail from "@/components/AanbodDetail";
-import { alleSlugs, vindAanbodItem } from "@/lib/dictionaries";
+import { DEELBEELD, alleSlugs, vindAanbodItem } from "@/lib/dictionaries";
 
 const TAAL = "en" as const;
 
@@ -22,7 +22,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
       description: item.kort,
       type: "website",
       locale: "en_GB",
-      images: [{ url: item.beeld, alt: item.naam }],
+      images: [{ url: DEELBEELD, width: 1200, height: 630, alt: item.naam }],
     },
   };
 }

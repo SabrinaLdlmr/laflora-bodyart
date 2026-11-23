@@ -31,10 +31,11 @@ documentatie zijn in het Nederlands.
 documentatie en in commitberichten een gewone komma, een dubbele punt of een korte zin
 in plaats van een em-dash.
 
-**Elke pagina heeft een deelafbeelding (og:image).** De standaardafbeelding staat in
-`lib/dictionaries.ts` als `DEELBEELD`. De detailpagina's van het aanbod gebruiken het
-beeld van dat aanbod. Komt er een nieuwe pagina bij, geef die dan ook `openGraph` met
-`images` mee. `metadataBase` in `app/layout.tsx` volgt vanzelf het productiedomein.
+**Elke pagina heeft een deelafbeelding (og:image), en dat is altijd het logo.** De
+afbeelding staat in `lib/dictionaries.ts` als `DEELBEELD` (`/beelden/laflora-deelbeeld.jpg`,
+1200 bij 630: de gouden roos met La Flora). Alle pagina's gebruiken die, ook de
+detailpagina's van het aanbod. **Nooit een foto van een kind als deelafbeelding.**
+Komt er een nieuwe pagina bij, geef die dan ook `openGraph` met `images` en `DEELBEELD` mee. `metadataBase` in `app/layout.tsx` volgt vanzelf het productiedomein.
 
 **Positionering.** La Flora doet kleine, magische feestjes in sprookjessferen: maximaal
 acht kinderen in anderhalf uur. Het moet duidelijk blijven dat Jasmina niet beschikbaar
