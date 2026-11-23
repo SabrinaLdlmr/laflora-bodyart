@@ -11,7 +11,9 @@
     "over": "About",
     "boeken": "Book",
     "taal": "Nederlands",
-    "taalHref": "/"
+    "taalHref": "/",
+    "menuOpen": "Open menu",
+    "menuSluit": "Close menu"
   },
   "hero": {
     "bovenkop": "Magical fairytale settings",

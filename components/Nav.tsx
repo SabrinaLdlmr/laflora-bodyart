@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NavMenu from "./NavMenu";
 import { getDictionary, pad, type Taal } from "@/lib/dictionaries";
 
 export default function Nav({ taal }: { taal: Taal }) {
@@ -10,7 +11,7 @@ export default function Nav({ taal }: { taal: Taal }) {
         <Link href={pad(taal, "/")} className="nav__merk">
           {t.nav.merk}
         </Link>
-        <nav className="nav__links" aria-label={t.nav.merk}>
+        <NavMenu label={t.nav.merk} openTekst={t.nav.menuOpen} sluitTekst={t.nav.menuSluit}>
           <Link href={pad(taal, "/#aanbod")}>{t.nav.aanbod}</Link>
           <Link href={pad(taal, "/#werkwijze")}>{t.nav.werkwijze}</Link>
           <Link href={pad(taal, "/#vragen")}>{t.nav.vragen}</Link>
@@ -19,7 +20,7 @@ export default function Nav({ taal }: { taal: Taal }) {
           <Link href={t.nav.taalHref} className="nav__taal" hrefLang={taal === "nl" ? "en" : "nl"}>
             {t.nav.taal}
           </Link>
-        </nav>
+        </NavMenu>
       </div>
     </header>
   );

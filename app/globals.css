@@ -306,6 +306,77 @@ img {
   padding-left: var(--ruimte-3);
 }
 
+/* De hamburgerknop: alleen zichtbaar op een smal scherm. */
+.nav__knop {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  margin-right: -10px;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.nav__knop span {
+  display: block;
+  height: 1.5px;
+  width: 100%;
+  background: var(--kleur-goud);
+  border-radius: 2px;
+  transition: transform 200ms ease, opacity 200ms ease;
+}
+
+.nav__knop[aria-expanded="true"] span:nth-child(1) {
+  transform: translateY(7.5px) rotate(45deg);
+}
+
+.nav__knop[aria-expanded="true"] span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav__knop[aria-expanded="true"] span:nth-child(3) {
+  transform: translateY(-7.5px) rotate(-45deg);
+}
+
+@media (max-width: 860px) {
+  .nav__knop {
+    display: flex;
+  }
+
+  .nav__links {
+    display: none;
+    flex-basis: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    padding-bottom: var(--ruimte-2);
+  }
+
+  .nav__links[data-open="true"] {
+    display: flex;
+  }
+
+  .nav__links a {
+    display: block;
+    width: 100%;
+    padding-block: 0.8rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--kleur-goud) 12%, transparent);
+  }
+
+  .nav__taal {
+    border-left: 0;
+    padding-left: 0;
+  }
+
+  .nav__links a.nav__taal {
+    border-bottom: 0;
+  }
+}
+
 /* --------------------------------------------------------------------------
    Hero
    -------------------------------------------------------------------------- */

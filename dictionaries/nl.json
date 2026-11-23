@@ -11,7 +11,9 @@
     "over": "Over La Flora",
     "boeken": "Boeken",
     "taal": "English",
-    "taalHref": "/en"
+    "taalHref": "/en",
+    "menuOpen": "Menu openen",
+    "menuSluit": "Menu sluiten"
   },
   "hero": {
     "bovenkop": "Magische sprookjessferen",
