@@ -121,6 +121,22 @@ export default function Home({ taal }: { taal: Taal }) {
         </div>
       </Sectie>
 
+      <Sectie id="ervaringen" bovenkop={t.ervaringen.bovenkop} titel={t.ervaringen.titel}>
+        <div className="ervaringen">
+          {t.ervaringen.items.map((item) => (
+            <figure key={item.naam} className="ervaring">
+              <blockquote className="ervaring__tekst">
+                <p>{item.tekst}</p>
+              </blockquote>
+              <figcaption className="ervaring__naam">
+                {item.naam}
+                <span>{item.bron}</span>
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+      </Sectie>
+
       <Sectie id="past-het" titel={t.passend.titel}>
         <p className="passend__tekst">{t.passend.intro}</p>
         {t.passend.onderdelen.map((onderdeel) => (

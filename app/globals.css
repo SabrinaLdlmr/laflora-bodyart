@@ -688,6 +688,57 @@ img {
   align-items: center;
 }
 
+/* Wat anderen zeggen: echte recensies, met naam en bron */
+.ervaringen {
+  display: grid;
+  gap: var(--ruimte-4);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.ervaring {
+  position: relative;
+  margin: 0;
+  padding: var(--ruimte-4) var(--ruimte-3) var(--ruimte-3);
+  border: 1px solid color-mix(in srgb, var(--kleur-goud) 24%, transparent);
+  border-radius: 24px;
+  background: color-mix(in srgb, var(--kleur-druif) 14%, transparent);
+}
+
+.ervaring::before {
+  content: "\201C";
+  position: absolute;
+  top: -0.35em;
+  left: var(--ruimte-3);
+  font-family: var(--letter-display);
+  font-size: 4rem;
+  line-height: 1;
+  color: var(--kleur-goud);
+}
+
+.ervaring__tekst {
+  margin: 0;
+}
+
+.ervaring__tekst p {
+  margin: 0;
+  font-style: italic;
+  color: var(--tekst);
+}
+
+.ervaring__naam {
+  margin-top: var(--ruimte-3);
+  font-size: var(--tekstgrootte-s);
+  letter-spacing: 0.08em;
+  color: var(--kleur-bloesem);
+}
+
+.ervaring__naam span {
+  display: block;
+  font-size: var(--tekstgrootte-xs);
+  color: var(--tekst-zacht);
+  letter-spacing: 0.04em;
+}
+
 .boeken {
   text-align: center;
 }

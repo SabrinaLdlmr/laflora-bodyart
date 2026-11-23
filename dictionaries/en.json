@@ -264,6 +264,22 @@
     "beeld": "/beelden/jasmina-aan-het-werk.jpg",
     "beeldAlt": "Jasmina painting flowers on the face of a laughing girl"
   },
+  "ervaringen": {
+    "bovenkop": "Reviews",
+    "titel": "What others say",
+    "items": [
+      {
+        "tekst": "Dit is een geweldige ervaring! De schminkster is ontzettend vriendelijk en professioneel. Ze neemt de tijd voor elk kind en tovert de mooiste bloemencreaties op hun gezichtjes, van kleurrijke rozen tot fantasierijke bloemen. De schmink is van goede kwaliteit.",
+        "naam": "Erna C. Borghans",
+        "bron": "Facebook, april 2025"
+      },
+      {
+        "tekst": "I've seen many face painters at parties, but Jasmina's work is something special. Her designs are creative, detailed, and full of personality. Thanks to Jasmina, my daughter's birthday was extra special. She added a magical touch that turned it into an unforgettable celebration.",
+        "naam": "Tiziana Sorvillo",
+        "bron": "Facebook, May 2025"
+      }
+    ]
+  },
   "passend": {
     "titel": "Is my way of working a good fit for your party?",
     "intro": "When you book me, you are choosing a personal experience and a little fairytale magic. My speciality is detailed floral and line work, and I practise it every single day to keep refining my technique. I'm proud of where my work is today, and I keep practising because I love to grow and lift it to a higher level each time.",
