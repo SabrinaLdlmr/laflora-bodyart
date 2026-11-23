@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description: t.meta.beschrijving,
     type: "website",
     locale: "en_GB",
-    images: [{ url: DEELBEELD, alt: t.meta.titel }],
+    images: [{ url: DEELBEELD, width: 1200, height: 630, alt: t.meta.titel }],
   },
 };
 
