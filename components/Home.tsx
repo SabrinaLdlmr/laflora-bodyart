@@ -25,6 +25,7 @@ export default function Home({ taal }: { taal: Taal }) {
           {t.hero.bovenkop && <p className="bovenkop">{t.hero.bovenkop}</p>}
           <h1 className="hero__naam">{t.hero.naam}</h1>
           <p className="hero__ondertitel">{t.hero.ondertitel}</p>
+          <p className="hero__regio">{t.hero.regio}</p>
           <p className="hero__tekst">{t.hero.tekst}</p>
           <div className="hero__knoppen">
             <Link href={pad(taal, "/#boeken")} className="knop knop--vol">
@@ -34,6 +35,11 @@ export default function Home({ taal }: { taal: Taal }) {
               {t.hero.knopSecundair}
             </Link>
           </div>
+          <p className="hero__instagram">
+            <a href={t.boeken.instagramHref} target="_blank" rel="noopener noreferrer">
+              {t.hero.instagramTekst} <span>{t.boeken.instagram}</span>
+            </a>
+          </p>
           </Spiegel>
         </div>
       </section>
@@ -156,6 +162,11 @@ export default function Home({ taal }: { taal: Taal }) {
           <ul className="boeken__gegevens">
             <li>
               <a href={`mailto:${t.boeken.email}`}>{t.boeken.email}</a>
+            </li>
+            <li>
+              <a href={t.boeken.instagramHref} target="_blank" rel="noopener noreferrer">
+                Instagram {t.boeken.instagram}
+              </a>
             </li>
           </ul>
         </div>

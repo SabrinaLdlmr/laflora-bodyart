@@ -1,7 +1,7 @@
 {
   "meta": {
     "titel": "La Flora Body Art",
-    "beschrijving": "Magische feestjes in sprookjessferen. Kleine meidenfeestjes aan huis, een bloemen experience voor hooggevoelige kinderen en moeder-dochter momenten in het atelier."
+    "beschrijving": "Magische feestjes in sprookjessferen in Amsterdam en omstreken. Kleine meidenfeestjes aan huis, een bloemen experience voor hooggevoelige kinderen en moeder-dochter momenten in het atelier."
   },
   "nav": {
     "merk": "La Flora",
@@ -17,9 +17,11 @@
     "bovenkop": "Magische sprookjessferen",
     "naam": "La Flora",
     "ondertitel": "De magie die blijft, lang nadat de schmink verdwenen is",
+    "regio": "Amsterdam en omstreken",
     "tekst": "Ik laat kinderen zichzelf als magie ervaren, op kleine feestjes met een sprookjessfeer. Rustig en met alle tijd: een handvol vriendinnen op een verjaardag, een moeder en dochter samen, of een kind dat veel voelt en precies daarom het langst stil blijft zitten.",
     "knopPrimair": "Boek een feestje",
-    "knopSecundair": "Bekijk het aanbod"
+    "knopSecundair": "Bekijk het aanbod",
+    "instagramTekst": "Bekijk mijn werk en de sfeer op Instagram"
   },
   "evenement": {
     "bovenkop": "Eerstvolgende workshop",
@@ -384,7 +386,7 @@
       {
         "kop": "1. Afspraken en boeken",
         "tekst": [
-          "Een afspraak is definitief zodra we hem allebei schriftelijk hebben bevestigd, per mail of bericht. In de bevestiging staan de datum, de plek, de duur, het aantal deelnemers en de prijs.",
+          "Je reservering is definitief zodra de betaling binnen is. Je krijgt vooraf een bevestiging per mail of bericht, met de datum, de plek, de duur, het aantal deelnemers en de prijs.",
           "Mijn feestjes zijn klein: maximaal acht kinderen in anderhalf uur. Komen er meer kinderen dan afgesproken, dan mag ik het programma daarop aanpassen."
         ]
       },
@@ -392,7 +394,8 @@
         "kop": "2. Prijzen en betaling",
         "tekst": [
           "De prijzen staan op de website en in de bevestiging. Kom ik bij jullie thuis, dan komen daar eventuele reiskosten met het ov bij.",
-          "Je betaalt het afgesproken bedrag op de manier en binnen de termijn die in de bevestiging of op de factuur staan."
+          "Je betaalt het afgesproken bedrag vooraf, op de manier en binnen de termijn die in de bevestiging of op de factuur staan. Achteraf betalen is niet mogelijk.",
+          "Komen er op de dag zelf extra kosten bij, bijvoorbeeld reiskosten of extra tijd, dan stuur ik daarvoor achteraf een aparte rekening."
         ]
       },
       {
@@ -415,7 +418,7 @@
           "Elke huid reageert anders. Ook bij professionele en huidvriendelijke materialen kan een huidreactie of allergische reactie niet worden uitgesloten.",
           "Heeft je kind een gevoelige huid, een allergie, een huidaandoening of eerder gereageerd op schmink, laat het me dan vooraf weten. Twijfel je, overleg dan eerst met een arts.",
           "Ouders of verzorgers blijven zelf verantwoordelijk voor eventuele huidreacties en allergische reacties. Daarvoor kan La Flora Body Art niet aansprakelijk worden gesteld.",
-          "Haal de schmink dezelfde dag rustig af met lauw water en een milde zeep, zonder hard te wrijven, en laat hem niet een nacht zitten. Zie je roodheid, jeuk of zwelling, verwijder de schmink dan direct en neem bij twijfel contact op met een arts."
+          "Haal de schmink dezelfde dag af met koud water en zeep, zonder hard te wrijven. Gebruik geen lauw of warm water: dan trekt de kleur juist in de huid. Laat de schmink niet een nacht zitten. Zie je roodheid, jeuk of zwelling, verwijder de schmink dan direct en neem bij twijfel contact op met een arts."
         ]
       },
       {
@@ -442,7 +445,8 @@
       {
         "kop": "9. Foto's",
         "tekst": [
-          "Ik maak graag foto's van mijn werk voor mijn website en social media. Een kind is alleen herkenbaar in beeld als ouders of verzorgers daar vooraf toestemming voor geven. Die toestemming is vrijwillig en kun je altijd weer intrekken."
+          "Ik maak nooit foto's van kinderen. Daar wil ik betrouwbaar in zijn: er komen bij mij geen beelden van je kind terecht.",
+          "Wel vind ik het fijn als ouders mij foto's sturen die ik op mijn website en social media mag gebruiken. Dat doe ik alleen met jullie toestemming, en die kun je altijd weer intrekken."
         ]
       },
       {

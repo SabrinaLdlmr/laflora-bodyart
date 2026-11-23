@@ -13,6 +13,10 @@ export default function Footer({ taal }: { taal: Taal }) {
         </p>
         <p style={{ margin: 0 }}>
           <a href={`mailto:${t.boeken.email}`}>{t.boeken.email}</a> ·{" "}
+          <a href={t.boeken.instagramHref} target="_blank" rel="noopener noreferrer">
+            Instagram
+          </a>{" "}
+          ·{" "}
           {t.footer.kvk && <>{t.footer.kvk} · </>}
           <Link href={pad(taal, "/voorwaarden")}>{t.footer.voorwaarden}</Link> ·{" "}
           {new Date().getFullYear()} {t.footer.rechten}

@@ -1,7 +1,7 @@
 {
   "meta": {
     "titel": "La Flora Body Art",
-    "beschrijving": "Magical parties in a fairytale setting. Small girls' parties at home, a flower experience for highly sensitive children and mother and daughter moments in the studio."
+    "beschrijving": "Magical parties in a fairytale setting in Amsterdam and surroundings. Small girls' parties at home, a flower experience for highly sensitive children and mother and daughter moments in the studio."
   },
   "nav": {
     "merk": "La Flora",
@@ -17,9 +17,11 @@
     "bovenkop": "Magical fairytale settings",
     "naam": "La Flora",
     "ondertitel": "The magic that stays, long after the paint is gone",
+    "regio": "Amsterdam and surroundings",
     "tekst": "I let children experience themselves as magic, at small parties with a fairytale atmosphere. Calm and with all the time in the world: a handful of friends at a birthday, a mother and daughter together, or a child who feels a lot and for that very reason sits still the longest.",
     "knopPrimair": "Book a party",
-    "knopSecundair": "See the work"
+    "knopSecundair": "See the work",
+    "instagramTekst": "See my work and the atmosphere on Instagram"
   },
   "evenement": {
     "bovenkop": "Next workshop",
@@ -384,7 +386,7 @@
       {
         "kop": "1. Appointments and booking",
         "tekst": [
-          "An appointment is final once we have both confirmed it in writing, by email or message. The confirmation states the date, the location, the duration, the number of participants and the price.",
+          "Your booking is final once payment has been received. You will receive a confirmation in advance by email or message, stating the date, the location, the duration, the number of participants and the price.",
           "My parties are small: no more than eight children in an hour and a half. If more children come than agreed, I may adjust the programme accordingly."
         ]
       },
@@ -392,7 +394,8 @@
         "kop": "2. Prices and payment",
         "tekst": [
           "Prices are listed on the website and in the confirmation. If I come to your home, any travel costs by public transport are added.",
-          "You pay the agreed amount in the way and within the term stated in the confirmation or on the invoice."
+          "You pay the agreed amount in advance, in the way and within the term stated in the confirmation or on the invoice. Paying afterwards is not possible.",
+          "If extra costs arise on the day itself, such as travel costs or extra time, I will send a separate invoice for them afterwards."
         ]
       },
       {
@@ -415,7 +418,7 @@
           "Every skin reacts differently. Even with professional and skin-friendly materials, a skin reaction or allergic reaction cannot be ruled out.",
           "If your child has sensitive skin, an allergy, a skin condition or has reacted to face paint before, please let me know in advance. If in doubt, consult a doctor first.",
           "Parents or guardians remain responsible for any skin reactions and allergic reactions. La Flora Body Art cannot be held liable for them.",
-          "Gently remove the paint the same day with lukewarm water and a mild soap, without hard rubbing, and do not leave it on overnight. If you notice redness, itching or swelling, remove the paint straight away and contact a doctor if in doubt."
+          "Remove the paint the same day with cold water and soap, without hard rubbing. Do not use lukewarm or warm water: it makes the colour sink into the skin. Do not leave the paint on overnight. If you notice redness, itching or swelling, remove the paint straight away and contact a doctor if in doubt."
         ]
       },
       {
@@ -442,7 +445,8 @@
       {
         "kop": "9. Photos",
         "tekst": [
-          "I like to take photos of my work for my website and social media. A child is only recognisable in a photo if parents or guardians give permission in advance. That permission is voluntary and can be withdrawn at any time."
+          "I never take photos of children. I want to be reliable in that: no pictures of your child end up with me.",
+          "I do love it when parents send me photos that I may use on my website and social media. I only do so with your permission, and you can withdraw it at any time."
         ]
       },
       {

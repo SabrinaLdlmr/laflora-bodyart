@@ -369,6 +369,35 @@ img {
   padding-inline-start: 0.32em;
 }
 
+/* Het werkgebied, direct in beeld bij het openen van de site. */
+.hero__regio {
+  margin: var(--ruimte-2) auto 0;
+  font-size: var(--tekstgrootte-s);
+  letter-spacing: 0.2em;
+  padding-inline-start: 0.2em;
+  text-transform: uppercase;
+  color: var(--kleur-goud);
+}
+
+.hero__instagram {
+  margin: var(--ruimte-3) auto 0;
+  font-size: var(--tekstgrootte-s);
+}
+
+.hero__instagram a {
+  color: var(--tekst-zacht);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--kleur-goud) 40%, transparent);
+}
+
+.hero__instagram a:hover {
+  color: var(--kleur-goud-licht);
+}
+
+.hero__instagram span {
+  color: var(--kleur-bloesem);
+}
+
 .hero__tekst {
   margin-inline: auto;
   margin-top: var(--ruimte-3);
