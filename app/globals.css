@@ -358,6 +358,17 @@ img {
   margin-top: var(--ruimte-2);
 }
 
+/*
+ * Elke alinea heeft een maximale breedte en geen automatische marge, dus
+ * zonder dit blijft de boventitel in een smaller vakje links in de spiegel
+ * hangen. De letterafstand komt ook achter de laatste letter terecht; met
+ * dezelfde ruimte aan de linkerkant staat de tekst echt in het midden.
+ */
+.hero .bovenkop {
+  margin-inline: auto;
+  padding-inline-start: 0.32em;
+}
+
 .hero__tekst {
   margin-inline: auto;
   margin-top: var(--ruimte-3);
