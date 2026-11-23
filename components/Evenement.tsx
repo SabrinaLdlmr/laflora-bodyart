@@ -1,5 +1,6 @@
+import Link from "next/link";
 import Beeld from "./Beeld";
-import { getDictionary, type Taal } from "@/lib/dictionaries";
+import { getDictionary, pad, type Taal } from "@/lib/dictionaries";
 
 /**
  * De eerstvolgende workshop. Het aantal vrije plekken rekent zichzelf uit
@@ -14,8 +15,6 @@ export default function Evenement({ taal }: { taal: Taal }) {
   const vol = vrij === 0;
   const bijnaVol = vrij > 0 && vrij <= 3;
 
-  const onderwerp = `${e.titel} ${e.datum}`;
-  const mailto = `mailto:${t.boeken.email}?subject=${encodeURIComponent(onderwerp)}`;
 
   return (
     <section id="workshop" className="sectie">
@@ -67,9 +66,9 @@ export default function Evenement({ taal }: { taal: Taal }) {
               </li>
             </ul>
 
-            <a href={mailto} className="knop knop--vol">
+            <Link href={pad(taal, "/#boeken")} className="knop knop--vol">
               {vol ? e.wachtlijst : e.knop}
-            </a>
+            </Link>
           </div>
         </div>
       </div>

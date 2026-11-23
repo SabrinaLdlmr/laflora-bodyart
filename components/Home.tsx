@@ -158,11 +158,7 @@ export default function Home({ taal }: { taal: Taal }) {
           <h2 className="sectie__titel">{t.boeken.titel}</h2>
           <p style={{ marginTop: "1.5rem", color: "var(--tekst-zacht)" }}>{t.boeken.tekst}</p>
           <Contactformulier taal={taal} />
-          <p className="boeken__ofmail">{t.boeken.formulier.ofMail}</p>
           <ul className="boeken__gegevens">
-            <li>
-              <a href={`mailto:${t.boeken.email}`}>{t.boeken.email}</a>
-            </li>
             <li>
               <a href={t.boeken.instagramHref} target="_blank" rel="noopener noreferrer">
                 Instagram {t.boeken.instagram}

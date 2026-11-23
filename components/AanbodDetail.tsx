@@ -50,9 +50,9 @@ export default function AanbodDetail({ item, taal }: { item: AanbodItem; taal: T
               </div>
             )}
 
-            <a href={`mailto:${t.boeken.email}?subject=${encodeURIComponent(item.naam)}`} className="knop knop--vol">
+            <Link href={pad(taal, "/#boeken")} className="knop knop--vol">
               {t.detail.knop}
-            </a>
+            </Link>
           </div>
 
           <Beeld bron={item.beeld} alt={item.naam} vorm="kaart" blad={4} prioriteit />

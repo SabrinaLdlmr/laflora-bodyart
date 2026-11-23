@@ -326,7 +326,6 @@
     "titel": "Zullen we een datum prikken",
     "tekst": "Stuur een bericht met de datum, de plek en waar je aan denkt. Kleine groep, rustige plek, alle tijd: dat is waar ik het beste in ben. Ik reageer binnen twee dagen.",
     "knop": "Mail La Flora",
-    "email": "jasminaswonderland@gmail.com",
     "instagram": "@laflorabodyart",
     "instagramHref": "https://www.instagram.com/laflorabodyart/",
     "formulier": {
@@ -346,7 +345,6 @@
       "geluktTitel": "Dank je wel",
       "geluktTekst": "Je bericht is onderweg naar Jasmina. Je krijgt binnen twee dagen antwoord.",
       "nogEen": "Nog een bericht sturen",
-      "ofMail": "Liever gewoon mailen? Dat mag ook:",
       "fout": {
         "naam": "Vul je naam in, minstens twee letters.",
         "email": "Dit e-mailadres klopt nog niet helemaal.",
@@ -452,7 +450,7 @@
       {
         "kop": "10. Overig",
         "tekst": [
-          "Op deze voorwaarden en alle afspraken is Nederlands recht van toepassing. Heb je een vraag of klacht, mail me dan op jasminaswonderland@gmail.com. Samen komen we er altijd uit."
+          "Op deze voorwaarden en alle afspraken is Nederlands recht van toepassing. Heb je een vraag of klacht, neem dan contact met me op via het contactformulier op de website. Samen komen we er altijd uit."
         ]
       }
     ]

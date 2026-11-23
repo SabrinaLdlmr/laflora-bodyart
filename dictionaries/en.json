@@ -326,7 +326,6 @@
     "titel": "Shall we pick a date",
     "tekst": "Send a message with the date, the place and what you have in mind. A small group, a calm place, all the time in the world: that is what I am best at. I reply within two days.",
     "knop": "Email La Flora",
-    "email": "jasminaswonderland@gmail.com",
     "instagram": "@laflorabodyart",
     "instagramHref": "https://www.instagram.com/laflorabodyart/",
     "formulier": {
@@ -346,7 +345,6 @@
       "geluktTitel": "Thank you",
       "geluktTekst": "Your message is on its way to Jasmina. You will have a reply within two days.",
       "nogEen": "Send another message",
-      "ofMail": "Rather just send an email? That works too:",
       "fout": {
         "naam": "Please fill in your name, at least two letters.",
         "email": "This email address does not look quite right.",
@@ -452,7 +450,7 @@
       {
         "kop": "10. Other",
         "tekst": [
-          "Dutch law applies to these terms and all appointments. If you have a question or complaint, email me at jasminaswonderland@gmail.com. Together we will always work it out."
+          "Dutch law applies to these terms and all appointments. If you have a question or complaint, please contact me through the contact form on the website. Together we will always work it out."
         ]
       }
     ]
