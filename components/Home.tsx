@@ -117,7 +117,7 @@ export default function Home({ taal }: { taal: Taal }) {
               ))}
             </div>
           </div>
-          <Beeld bron={t.over.beeld} alt={t.over.titel} vorm="breed" blad={3} />
+          <Beeld bron={t.over.beeld} alt={t.over.beeldAlt} vorm="kaart" blad={3} />
         </div>
       </Sectie>
 
