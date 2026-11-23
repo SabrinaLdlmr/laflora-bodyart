@@ -241,7 +241,7 @@
       },
       {
         "vraag": "Is the paint safe?",
-        "antwoord": "I work with professional, skin-friendly face paint and cosmetic glitter."
+        "antwoord": "I work with professional, skin-friendly face paint and cosmetic glitter, and hygiene matters to me. Still, every skin reacts differently. If your child has sensitive skin or an allergy, please let me know in advance. Parents remain responsible for any skin reactions; I cannot be held liable for them."
       },
       {
         "vraag": "Can I give it as a gift?",
@@ -360,7 +360,8 @@
     "merk": "La Flora Body Art",
     "regel": "The magic that stays, long after the paint is gone",
     "kvk": "KvK 68314752",
-    "rechten": "All rights reserved"
+    "rechten": "All rights reserved",
+    "voorwaarden": "Terms and conditions"
   },
   "detail": {
     "terug": "Back to the work",
@@ -372,5 +373,84 @@
   },
   "film": {
     "bijschrift": "This is how a line grows. From the first stroke to the final curl, in a few minutes."
+  },
+  "voorwaarden": {
+    "titel": "Terms and conditions",
+    "beschrijving": "The terms that apply to a session, party or workshop with La Flora Body Art.",
+    "terug": "Back to the homepage",
+    "bijgewerkt": "Last updated: November 2026",
+    "intro": "These terms apply to all sessions, parties, workshops and projects by La Flora Body Art (Chamber of Commerce 68314752). By making an appointment you agree to these terms. In case of any difference, the Dutch version applies.",
+    "secties": [
+      {
+        "kop": "1. Appointments and booking",
+        "tekst": [
+          "An appointment is final once we have both confirmed it in writing, by email or message. The confirmation states the date, the location, the duration, the number of participants and the price.",
+          "My parties are small: no more than eight children in an hour and a half. If more children come than agreed, I may adjust the programme accordingly."
+        ]
+      },
+      {
+        "kop": "2. Prices and payment",
+        "tekst": [
+          "Prices are listed on the website and in the confirmation. If I come to your home, any travel costs by public transport are added.",
+          "You pay the agreed amount in the way and within the term stated in the confirmation or on the invoice."
+        ]
+      },
+      {
+        "kop": "3. Rescheduling and cancelling",
+        "tekst": [
+          "Please reschedule or cancel in writing, by email or message, and as soon as possible. We will then look for a new date together.",
+          "If I am ill or unable to come myself, I will let you know as soon as possible and suggest a new date."
+        ]
+      },
+      {
+        "kop": "4. Materials and hygiene",
+        "tekst": [
+          "I work with professional, skin-friendly face paint and cosmetic glitter, and hygiene matters to me. I clean my materials and disinfect them where needed.",
+          "Please provide a clean, quiet place to work, with a table and access to clean water."
+        ]
+      },
+      {
+        "kop": "5. Health and skin reactions",
+        "tekst": [
+          "Every skin reacts differently. Even with professional and skin-friendly materials, a skin reaction or allergic reaction cannot be ruled out.",
+          "If your child has sensitive skin, an allergy, a skin condition or has reacted to face paint before, please let me know in advance. If in doubt, consult a doctor first.",
+          "Parents or guardians remain responsible for any skin reactions and allergic reactions. La Flora Body Art cannot be held liable for them.",
+          "Gently remove the paint the same day with lukewarm water and a mild soap, without hard rubbing, and do not leave it on overnight. If you notice redness, itching or swelling, remove the paint straight away and contact a doctor if in doubt."
+        ]
+      },
+      {
+        "kop": "6. When I do not paint",
+        "tekst": [
+          "I do not paint on skin with wounds, a rash, eczema, an inflammation or a cold sore, or with a contagious condition such as chickenpox or head lice. I also do not paint a child who is ill. Where possible, the child and I choose another spot together, such as the hand or the arm.",
+          "I never paint a child who does not want it. I always ask first whether I may begin."
+        ]
+      },
+      {
+        "kop": "7. Supervision and responsibility",
+        "tekst": [
+          "I provide the creative session, not childcare. Parents or guardians remain responsible for the children before, during and after the session.",
+          "Face paint and glitter can rub off on clothing and furniture. I work carefully, but I am not liable for stains or damage to clothing, furniture or belongings."
+        ]
+      },
+      {
+        "kop": "8. Liability",
+        "tekst": [
+          "La Flora Body Art is not liable for damage caused by information about a participant's skin or health not being shared, or being shared incompletely.",
+          "Should La Flora Body Art nevertheless be liable, that liability is limited to the amount paid for the appointment concerned. Liability that cannot be excluded by law remains."
+        ]
+      },
+      {
+        "kop": "9. Photos",
+        "tekst": [
+          "I like to take photos of my work for my website and social media. A child is only recognisable in a photo if parents or guardians give permission in advance. That permission is voluntary and can be withdrawn at any time."
+        ]
+      },
+      {
+        "kop": "10. Other",
+        "tekst": [
+          "Dutch law applies to these terms and all appointments. If you have a question or complaint, email me at jasminaswonderland@gmail.com. Together we will always work it out."
+        ]
+      }
+    ]
   }
 }

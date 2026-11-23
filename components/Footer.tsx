@@ -1,4 +1,5 @@
-import { getDictionary, type Taal } from "@/lib/dictionaries";
+import Link from "next/link";
+import { getDictionary, pad, type Taal } from "@/lib/dictionaries";
 
 export default function Footer({ taal }: { taal: Taal }) {
   const t = getDictionary(taal);
@@ -13,6 +14,7 @@ export default function Footer({ taal }: { taal: Taal }) {
         <p style={{ margin: 0 }}>
           <a href={`mailto:${t.boeken.email}`}>{t.boeken.email}</a> ·{" "}
           {t.footer.kvk && <>{t.footer.kvk} · </>}
+          <Link href={pad(taal, "/voorwaarden")}>{t.footer.voorwaarden}</Link> ·{" "}
           {new Date().getFullYear()} {t.footer.rechten}
         </p>
       </div>

@@ -43,6 +43,10 @@ sprookjessferen: maximaal acht kinderen in anderhalf uur.
 
 - [ ] **Basismodel factuur** in de stijl van de website (gevraagd op 3 oktober).
 - [ ] **Prijs bellypainting.** Staat op vanaf 95 euro, zoals eerder. Klopt dat nog?
+- [ ] **Annuleren en betalen in de voorwaarden.** De pagina /voorwaarden staat live
+      (november 2026), maar noemt nog geen annuleringskosten, aanbetaling of
+      betaaltermijn. Jasmina kiest wat ze wil, bijvoorbeeld gratis tot drie weken
+      vooraf en daarna een oplopend percentage. Daarna invullen in beide woordenboeken.
 
 ## Klaarzetten voor livegang en het contactformulier
 

@@ -241,7 +241,7 @@
       },
       {
         "vraag": "Is de verf veilig?",
-        "antwoord": "Ik werk met professionele, huidvriendelijke schmink en cosmetische glitter."
+        "antwoord": "Ik werk met professionele, huidvriendelijke schmink en cosmetische glitter, en ik vind hygiëne belangrijk. Toch reageert elke huid anders. Heeft je kind een gevoelige huid of een allergie, laat het me dan vooraf weten. Ouders blijven zelf verantwoordelijk voor eventuele huidreacties; daarvoor kan ik niet aansprakelijk worden gesteld."
       },
       {
         "vraag": "Kan ik het cadeau geven?",
@@ -360,7 +360,8 @@
     "merk": "La Flora Body Art",
     "regel": "De magie die blijft, lang nadat de schmink verdwenen is",
     "kvk": "KvK 68314752",
-    "rechten": "Alle rechten voorbehouden"
+    "rechten": "Alle rechten voorbehouden",
+    "voorwaarden": "Algemene voorwaarden"
   },
   "detail": {
     "terug": "Terug naar het aanbod",
@@ -372,5 +373,84 @@
   },
   "film": {
     "bijschrift": "Zo groeit een lijn. Van de eerste streek tot de laatste krul, in een paar minuten."
+  },
+  "voorwaarden": {
+    "titel": "Algemene voorwaarden",
+    "beschrijving": "De afspraken die gelden voor een sessie, feestje of workshop van La Flora Body Art.",
+    "terug": "Terug naar de homepage",
+    "bijgewerkt": "Laatst bijgewerkt: november 2026",
+    "intro": "Deze voorwaarden gelden voor alle sessies, feestjes, workshops en projecten van La Flora Body Art (KvK 68314752). Door een afspraak te maken ga je akkoord met deze voorwaarden.",
+    "secties": [
+      {
+        "kop": "1. Afspraken en boeken",
+        "tekst": [
+          "Een afspraak is definitief zodra we hem allebei schriftelijk hebben bevestigd, per mail of bericht. In de bevestiging staan de datum, de plek, de duur, het aantal deelnemers en de prijs.",
+          "Mijn feestjes zijn klein: maximaal acht kinderen in anderhalf uur. Komen er meer kinderen dan afgesproken, dan mag ik het programma daarop aanpassen."
+        ]
+      },
+      {
+        "kop": "2. Prijzen en betaling",
+        "tekst": [
+          "De prijzen staan op de website en in de bevestiging. Kom ik bij jullie thuis, dan komen daar eventuele reiskosten met het ov bij.",
+          "Je betaalt het afgesproken bedrag op de manier en binnen de termijn die in de bevestiging of op de factuur staan."
+        ]
+      },
+      {
+        "kop": "3. Verzetten en annuleren",
+        "tekst": [
+          "Verzetten of annuleren doe je schriftelijk, per mail of bericht, en zo snel mogelijk. Dan zoeken we samen naar een nieuwe datum.",
+          "Ben ik zelf ziek of verhinderd, dan laat ik het je zo snel mogelijk weten en stel ik een nieuwe datum voor."
+        ]
+      },
+      {
+        "kop": "4. Materialen en hygiëne",
+        "tekst": [
+          "Ik werk met professionele, huidvriendelijke schmink en cosmetische glitter, en ik vind hygiëne belangrijk. Mijn materialen maak ik schoon en waar nodig ontsmet ik ze.",
+          "Zorg voor een schone, rustige plek om te werken, met een tafel en toegang tot schoon water."
+        ]
+      },
+      {
+        "kop": "5. Gezondheid en huidreacties",
+        "tekst": [
+          "Elke huid reageert anders. Ook bij professionele en huidvriendelijke materialen kan een huidreactie of allergische reactie niet worden uitgesloten.",
+          "Heeft je kind een gevoelige huid, een allergie, een huidaandoening of eerder gereageerd op schmink, laat het me dan vooraf weten. Twijfel je, overleg dan eerst met een arts.",
+          "Ouders of verzorgers blijven zelf verantwoordelijk voor eventuele huidreacties en allergische reacties. Daarvoor kan La Flora Body Art niet aansprakelijk worden gesteld.",
+          "Haal de schmink dezelfde dag rustig af met lauw water en een milde zeep, zonder hard te wrijven, en laat hem niet een nacht zitten. Zie je roodheid, jeuk of zwelling, verwijder de schmink dan direct en neem bij twijfel contact op met een arts."
+        ]
+      },
+      {
+        "kop": "6. Wanneer ik niet schilder",
+        "tekst": [
+          "Ik schilder niet op een huid met wondjes, uitslag, eczeem, een ontsteking of een koortslip, en niet bij een besmettelijke aandoening zoals waterpokken of hoofdluis. Ook een kind dat ziek is, schilder ik niet. Waar het kan, kies ik dan samen met het kind een andere plek, zoals de hand of de arm.",
+          "Ik schilder nooit een kind dat dat zelf niet wil. Ik vraag altijd eerst of ik mag beginnen."
+        ]
+      },
+      {
+        "kop": "7. Toezicht en verantwoordelijkheid",
+        "tekst": [
+          "Ik verzorg de creatieve sessie, geen kinderopvang. Ouders of verzorgers blijven voor, tijdens en na de sessie verantwoordelijk voor de kinderen.",
+          "Schmink en glitter kunnen afgeven op kleding en meubels. Ik werk zorgvuldig, maar ben niet aansprakelijk voor vlekken of schade aan kleding, meubels of spullen."
+        ]
+      },
+      {
+        "kop": "8. Aansprakelijkheid",
+        "tekst": [
+          "La Flora Body Art is niet aansprakelijk voor schade die ontstaat doordat informatie over de huid of gezondheid van een deelnemer niet of niet volledig is doorgegeven.",
+          "Is La Flora Body Art toch aansprakelijk, dan is die aansprakelijkheid beperkt tot het bedrag dat voor de betreffende afspraak is betaald. Aansprakelijkheid die volgens de wet niet mag worden uitgesloten, blijft bestaan."
+        ]
+      },
+      {
+        "kop": "9. Foto's",
+        "tekst": [
+          "Ik maak graag foto's van mijn werk voor mijn website en social media. Een kind is alleen herkenbaar in beeld als ouders of verzorgers daar vooraf toestemming voor geven. Die toestemming is vrijwillig en kun je altijd weer intrekken."
+        ]
+      },
+      {
+        "kop": "10. Overig",
+        "tekst": [
+          "Op deze voorwaarden en alle afspraken is Nederlands recht van toepassing. Heb je een vraag of klacht, mail me dan op jasminaswonderland@gmail.com. Samen komen we er altijd uit."
+        ]
+      }
+    ]
   }
 }
