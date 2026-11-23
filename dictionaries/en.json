@@ -1,11 +1,11 @@
 {
   "meta": {
     "titel": "La Flora Body Art",
-    "beschrijving": "Magical parties in a fairytale setting, in and around Amsterdam. Small girls' parties at home, a flower experience for highly sensitive children and mother and daughter moments in the studio."
+    "beschrijving": "Magical parties in a fairytale setting, in and around Amsterdam. Small parties for girls at home, a flower experience for highly sensitive children and mother and daughter moments in the studio."
   },
   "nav": {
     "merk": "La Flora",
-    "aanbod": "Work",
+    "aanbod": "Offerings",
     "werkwijze": "How it works",
     "vragen": "Questions",
     "over": "About",
@@ -16,13 +16,13 @@
     "menuSluit": "Close menu"
   },
   "hero": {
-    "bovenkop": "Magical fairytale settings",
+    "bovenkop": "Magical fairytale worlds",
     "naam": "La Flora",
     "ondertitel": "The magic that stays, long after the paint is gone",
     "regio": "In and around Amsterdam",
     "tekst": "I let children experience themselves as magic, at small parties with a fairytale atmosphere. Calm and with all the time in the world: a handful of friends at a birthday, a mother and daughter together, or a child who feels a lot and for that very reason sits still the longest.",
     "knopPrimair": "Book a party",
-    "knopSecundair": "See the work",
+    "knopSecundair": "See what I offer",
     "instagramTekst": "See my work and the atmosphere on Instagram"
   },
   "evenement": {
@@ -54,9 +54,9 @@
     "knop": "Sign up"
   },
   "aanbod": {
-    "bovenkop": "Work",
+    "bovenkop": "Offerings",
     "titel": "What I make",
-    "intro": "Small, magical parties in a fairytale setting, with up to eight children in an hour and a half. A children's party of an hour and a half costs 110 euro and my hourly rate starts at 60 euro. If I come to your home, only possible public transport travel costs are added. I am not available for drop-in parties or large, fast jobs.",
+    "intro": "Small, magical parties in a fairytale setting, with up to eight children in an hour and a half. A children's party of an hour and a half costs 110 euro and my hourly rate starts at 60 euro. If I come to your home, the only extra is any public transport travel cost. I am not available for drop-in parties or large, fast jobs.",
     "meer": "Read more",
     "items": [
       {
@@ -65,10 +65,10 @@
         "kort": "An atmospheric party of an hour and a half at your home, for up to eight children. Each child is painted one by one in La Flora's fairytale style.",
         "beeld": "/beelden/bloemen-op-het-gezicht.jpg",
         "duur": "an hour and a half",
-        "vanaf": "110 euro, excl. possible public transport travel costs",
-        "voor": "Small girls' parties, up to eight children",
+        "vanaf": "110 euro, plus any public transport travel costs",
+        "voor": "Small parties for girls, up to eight children",
         "beschrijving": [
-          "A small, atmospheric party at your home, in a magical fairytale setting. In an hour and a half I paint up to eight children, one by one, in La Flora's own style: flowers, lines and glitter, tuned to each child.",
+          "A small, atmospheric party at your home, in a magical fairytale setting. In an hour and a half I paint up to eight children, one by one, in La Flora's own style: flowers, lines and glitter, tailored to each child.",
           "I work in a separate, quiet room. The child in the chair and one child who may watch, while the others are calmly brought and collected. That way each child gets my full attention and a moment of her own at the mirror.",
           "If there is time left, the Rose Glitter Bar opens: skin jewels and glitter that make the party complete."
         ],
@@ -85,12 +85,12 @@
         "kort": "A calm, slowed-down face painting experience of an hour and a half at your home, for one to three children. With a little case to explore and all the time in the world.",
         "beeld": "/beelden/penseel-op-de-arm.jpg",
         "duur": "an hour and a half",
-        "vanaf": "110 euro, excl. possible public transport travel costs",
+        "vanaf": "110 euro, plus any public transport travel costs",
         "voor": "Highly sensitive children, up to three",
         "beschrijving": [
           "For children who are quickly overwhelmed at a busy party and still long to feel magic on their birthday. I come to you and turn the kitchen table into a place where everything revolves around her.",
           "We start by getting to know each other. I bring a small case that the children may open and explore themselves. They can tell me what they find beautiful and what they have experienced with face paint before.",
-          "Then I paint them one by one while the others watch. Calm, quiet and time are at the heart of it. A scent and taste moment with orange makes the experience even richer, a memory you can smell.",
+          "Then I paint them one by one while the others watch. Calm, quiet and time are at the heart of it. A moment of scent and taste with orange makes the experience even richer, a memory you can smell.",
           "If there is time left, I bring out the Rose Glitter Bar, for example for the guests who come to the birthday."
         ],
         "praktisch": [
@@ -124,7 +124,7 @@
         "kort": "A creative workshop for up to six participants, especially for teenagers. First practising on a board, then on each other or on your own arm.",
         "beeld": "/beelden/oefenbord-bloemen.jpg",
         "duur": "an hour and a half",
-        "vanaf": "110 euro, excl. possible public transport travel costs",
+        "vanaf": "110 euro, plus any public transport travel costs",
         "voor": "Especially teenagers, up to six participants",
         "beschrijving": [
           "A creative workshop for a small group. You learn to paint a little flower, first on a practice board and then on each other or on your own arm.",
@@ -144,7 +144,7 @@
         "kort": "Your pregnant belly as a flower garden, painted in about an hour. Calm, at your home, with photos to remember it by.",
         "beeld": "/beelden/bellypainting.jpg",
         "duur": "60 to 90 minutes",
-        "vanaf": "from 95 euro, excl. possible public transport travel costs",
+        "vanaf": "from 95 euro, plus any public transport travel costs",
         "voor": "From 30 weeks pregnant",
         "beschrijving": [
           "We start with a cup of tea and a conversation about what you love. Flowers, vines, stars, or something that only means something to you.",
@@ -153,7 +153,7 @@
         ],
         "praktisch": [
           "From 30 weeks pregnant",
-          "Wear something paint is welcome on"
+          "Wear something you don't mind getting paint on"
         ]
       },
       {
@@ -184,7 +184,7 @@
         "tekst": "Tell me about the day, the place and who it is for. I work with small groups in a calm place; together we look at whether that fits. I let you know within two days whether I am free."
       },
       {
-        "titel": "We attune",
+        "titel": "Getting to know each other",
         "tekst": "You tell me about the day, about the child and about what she loves. I involve the child in the design. It arises in the moment, in my own style, and grows from the very first line."
       },
       {
@@ -213,11 +213,11 @@
     "items": [
       {
         "vraag": "What do you paint?",
-        "antwoord": "Flowers, in every kind. Roses, lotuses, small wild flowers, leaves and vines, with glitter and gems where the light falls. Sometimes a butterfly or a star in between. Everything that is soft, light and organic. That is my handwriting and it is what I am best at."
+        "antwoord": "Flowers, in every kind. Roses, lotuses, small wild flowers, leaves and vines, with glitter and gems where the light falls. Sometimes a butterfly or a star in between. Everything that is soft, light and organic. That is my signature style and it is what I am best at."
       },
       {
         "vraag": "My child wants a spider or a dragon. Is that possible?",
-        "antwoord": "With me everything becomes a flower. A spider becomes a star flower with eight petals, a dragon a vine of fire-coloured flowers along the arm. She chooses the idea, I translate it into my language. For tough animals and monsters as you know them from the fairground a classic children's face painter is the better choice; that way everyone does their own thing."
+        "antwoord": "With me everything becomes a flower. A spider becomes a star flower with eight petals, a dragon a vine of fire-coloured flowers along the arm. She chooses the idea, I translate it into my language. For fierce animals and monsters as you know them from the fairground a classic children's face painter is the better choice; that way everyone does their own thing."
       },
       {
         "vraag": "From what age?",
@@ -225,7 +225,7 @@
       },
       {
         "vraag": "What does it cost?",
-        "antwoord": "A children's party of an hour and a half costs 110 euro, belly painting starts at 95 euro and my hourly rate starts at 60 euro. If I come to your home, only possible public transport travel costs are added."
+        "antwoord": "A children's party of an hour and a half costs 110 euro, belly painting starts at 95 euro and my hourly rate starts at 60 euro. If I come to your home, the only extra is any public transport travel cost."
       },
       {
         "vraag": "Can you come to a large party or event?",
@@ -259,7 +259,7 @@
     "tekst": [
       "I am Jasmina, an artist with a love for flowers, lines and glitter. I paint slowly. First you feel the brush on your hand, only then on your face. I say what I am about to do before I do it, and we stop the moment you want to. That is why I work small, so that I can really see every child.",
       "For children who feel a lot, that makes all the difference. All the time in the world, gentle hands, and someone who asks before she touches. Parents of highly sensitive children know how rare that is, and those children often sit still the longest.",
-      "I work from experience. My work is built with care, driven by a love of detail and feeling. What I bring is paint, glitter, a mirror and the calm to really take my time. At your home or in my studio."
+      "For me it is all about the experience. My work is built with care, driven by a love of detail and feeling. What I bring is paint, glitter, a mirror and the calm to really take my time. At your home or in my studio."
     ],
     "beeld": "/beelden/jasmina-aan-het-werk.jpg",
     "beeldAlt": "Jasmina painting flowers on the face of a laughing girl"
@@ -326,7 +326,7 @@
   },
   "boeken": {
     "bovenkop": "Book",
-    "titel": "Shall we pick a date",
+    "titel": "Shall we pick a date?",
     "tekst": "Send a message with the date, the place and what you have in mind. A small group, a calm place, all the time in the world: that is what I am best at. I reply within two days.",
     "knop": "Email La Flora",
     "instagram": "@laflorabodyart",
@@ -367,7 +367,7 @@
     "voorwaarden": "Terms and conditions"
   },
   "detail": {
-    "terug": "Back to the work",
+    "terug": "Back to offerings",
     "duur": "Duration",
     "vanaf": "Price",
     "voor": "Who it is for",
@@ -395,7 +395,7 @@
         "kop": "2. Prices and payment",
         "tekst": [
           "Prices are listed on the website and in the confirmation. If I come to your home, any travel costs by public transport are added.",
-          "You pay the agreed amount in advance, in the way and within the term stated in the confirmation or on the invoice. Paying afterwards is not possible.",
+          "You pay the agreed amount in advance, in the way and by the deadline stated in the confirmation or on the invoice. Paying afterwards is not possible.",
           "If extra costs arise on the day itself, such as travel costs or extra time, I will send a separate invoice for them afterwards."
         ]
       },
