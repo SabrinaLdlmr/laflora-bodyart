@@ -20,6 +20,16 @@ export default function Footer({ taal }: { taal: Taal }) {
           <Link href={pad(taal, "/voorwaarden")}>{t.footer.voorwaarden}</Link> ·{" "}
           {new Date().getFullYear()} {t.footer.rechten}
         </p>
+        <p className="footer__maker">
+          {t.footer.gemaaktDoor}{" "}
+          <a
+            href="https://www.linkedin.com/in/sabrina-leidelmeijer-210a9813"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Sabrina Leidelmeijer
+          </a>
+        </p>
       </div>
     </footer>
   );

@@ -801,6 +801,13 @@ img {
   align-items: center;
 }
 
+.footer__maker {
+  flex-basis: 100%;
+  margin: 0;
+  font-size: var(--tekstgrootte-xs);
+  opacity: 0.75;
+}
+
 .footer a {
   color: var(--kleur-bloesem);
   text-decoration: none;
