@@ -121,7 +121,7 @@ export default function Home({ taal }: { taal: Taal }) {
         </div>
       </Sectie>
 
-      <Sectie id="ervaringen" bovenkop={t.ervaringen.bovenkop} titel={t.ervaringen.titel}>
+      <Sectie id="ervaringen" glitter bovenkop={t.ervaringen.bovenkop} titel={t.ervaringen.titel}>
         <div className="ervaringen">
           {t.ervaringen.items.map((item) => (
             <figure key={item.naam} className="ervaring">

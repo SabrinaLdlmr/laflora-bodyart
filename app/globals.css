@@ -1011,6 +1011,16 @@ img {
   z-index: 1;
 }
 
+/* Een gewone sectie met sterretjes erachter, zoals bij de reviews */
+.sectie--glitter {
+  position: relative;
+}
+
+.sectie--glitter .omhulsel {
+  position: relative;
+  z-index: 1;
+}
+
 /* De knoppen mogen ook glimmen */
 .knop--vol {
   background: var(--slinger);
